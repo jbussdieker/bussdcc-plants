@@ -1,0 +1,173 @@
+{% macro lifecycle_badge(value) %}
+  {% if value %}
+    {% set text = value|string %}
+    {% set key = text.lower().strip() %}
+
+    {% if "annual" in key %}
+      {% set cls = "text-bg-secondary" %}
+    {% elif "biennial" in key %}
+      {% set cls = "text-bg-warning" %}
+    {% elif "perennial" in key %}
+      {% set cls = "text-bg-success" %}
+    {% else %}
+      {% set cls = "text-bg-light" %}
+    {% endif %}
+
+    <span class="badge {{ cls }}">{{ text }}</span>
+  {% else %}
+    <span class="text-body-secondary">—</span>
+  {% endif %}
+{% endmacro %}
+
+{% macro hardiness_badge(hardiness) %}
+  {% if hardiness %}
+    <span class="badge text-bg-primary">{{ hardiness_label(hardiness) }}</span>
+  {% else %}
+    <span class="text-body-secondary">—</span>
+  {% endif %}
+{% endmacro %}
+
+{% macro hardiness_label(hardiness) %}
+  {% if hardiness is not none %}
+    {% if hardiness.min == hardiness.max %}
+      Zone {{ hardiness.min }}
+    {% else %}
+      Zones {{ hardiness.min }}–{{ hardiness.max }}
+    {% endif %}
+  {% else %}
+    —
+  {% endif %}
+{% endmacro %}
+
+{% macro hydration_range(hydration) %}
+  {% if hydration and hydration.target %}
+    {% set min_value = hydration.target.min %}
+    {% set max_value = hydration.target.max %}
+    {% set min_pct = (min_value * 100) | round(0, 'common') | int %}
+    {% set max_pct = (max_value * 100) | round(0, 'common') | int %}
+    {% set left = min_pct %}
+    {% set width = (max_pct - min_pct) if max_pct >= min_pct else 0 %}
+
+    <div class="mb-2">
+      <div
+        class="position-relative rounded border overflow-hidden bg-body-secondary"
+        style="height: 1.25rem;"
+      >
+        <div
+          class="position-absolute top-0 bottom-0 start-0 bg-danger-subtle"
+          style="width: {{ left }}%;"
+        ></div>
+
+        <div
+          class="position-absolute top-0 bottom-0 bg-success-subtle"
+          style="left: {{ left }}%; width: {{ width }}%;"
+        ></div>
+
+        <div
+          class="position-absolute top-0 bottom-0 end-0 bg-warning-subtle"
+          style="width: {{ 100 - max_pct }}%;"
+        ></div>
+      </div>
+    </div>
+
+    <div class="position-relative mt-2" style="height: 1.5rem;">
+      <!-- 0% -->
+      <span class="position-absolute start-0 small text-body-secondary">
+        0%
+      </span>
+
+      <!-- 100% -->
+      <span class="position-absolute end-0 small text-body-secondary">
+        100%
+      </span>
+
+      <!-- Target label (centered over range) -->
+      {% set mid = (min_pct + max_pct) / 2 %}
+      <span
+        class="position-absolute small fw-semibold"
+        style="left: {{ mid }}%; transform: translateX(-50%); white-space: nowrap;"
+      >
+        {{ min_pct }}%–{{ max_pct }}%
+      </span>
+    </div>
+  {% else %}
+    <span class="text-body-secondary">—</span>
+  {% endif %}
+{% endmacro %}
+
+{% macro botanical_name(taxonomy) %}
+  {% if taxonomy and taxonomy.genus and taxonomy.species %}
+    <em>{{ taxonomy.genus }} {{ taxonomy.species }}</em>
+  {% elif taxonomy and taxonomy.genus %}
+    <em>{{ taxonomy.genus }}</em>
+  {% else %}
+    <span class="text-body-secondary">—</span>
+  {% endif %}
+{% endmacro %}
+
+{% macro format_number(value) %}
+  {% if value is integer %}
+    {{ value }}
+  {% elif value == (value | int) %}
+    {{ value | int }}
+  {% else %}
+    {{ value }}
+  {% endif %}
+{% endmacro %}
+
+{% macro format_fractional_inches(value) %}
+  {% if value == 0.125 %}
+    1/8
+  {% elif value == 0.25 %}
+    1/4
+  {% elif value == 0.5 %}
+    1/2
+  {% elif value == 0.75 %}
+    3/4
+  {% else %}
+    {{ format_number(value) }}
+  {% endif %}
+{% endmacro %}
+
+{% macro distance_label(distance) %}
+  {% if distance %}
+    {% if distance.min == distance.max %}
+      {{ format_number(distance.min) }} {{ distance.unit }}
+    {% else %}
+      {{ format_number(distance.min) }}–{{ format_number(distance.max) }} {{ distance.unit }}
+    {% endif %}
+  {% else %}
+    <span class="text-body-secondary">—</span>
+  {% endif %}
+{% endmacro %}
+
+{% macro planting_depth_label(depth) %}
+  {% if depth %}
+    {% if depth.min == depth.max %}
+      {{ format_fractional_inches(depth.min) }} {{ depth.unit }}
+    {% else %}
+      {{ format_fractional_inches(depth.min) }}–{{ format_fractional_inches(depth.max) }} {{ depth.unit }}
+    {% endif %}
+
+    {% if depth.method %}
+      <span class="text-body-secondary">({{ depth.method }})</span>
+    {% endif %}
+
+    {% if depth.notes %}
+      <div class="small text-body-secondary mt-1">{{ depth.notes }}</div>
+    {% endif %}
+  {% else %}
+    <span class="text-body-secondary">—</span>
+  {% endif %}
+{% endmacro %}
+
+{% macro value_row(label, value) %}
+  <dt class="col-sm-4">{{ label }}</dt>
+  <dd class="col-sm-8">
+    {% if value is not none and value != "" %}
+      {{ value }}
+    {% else %}
+      <span class="text-body-secondary">—</span>
+    {% endif %}
+  </dd>
+{% endmacro %}

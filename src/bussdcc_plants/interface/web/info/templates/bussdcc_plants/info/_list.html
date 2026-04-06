@@ -1,0 +1,30 @@
+<div>
+  {% for crop_name, items in plant_groups %}
+    <div class="px-2 pt-1 pb-1 small text-uppercase text-body-secondary fw-semibold">
+      {{ crop_name }}
+    </div>
+
+    <div class="list-group mb-2">
+      {% for uuid, plant in items %}
+        <a
+          href="{{ url_for("bussdcc_plants_info.show", uuid=uuid) }}"
+          class="list-group-item list-group-item-action py-1 {{ "active" if id == uuid }}"
+        >
+          {% set label =
+            plant.name.variety_name
+            if plant.name.variety_name
+            else plant.name.display_name
+          %}
+
+          <div>{{ label }}</div>
+
+          {% if plant.name.qualifiers %}
+            <div class="small opacity-75">
+              {{ plant.name.qualifiers | map('replace', '-', ' ') | map('title') | join(', ') }}
+            </div>
+          {% endif %}
+        </a>
+      {% endfor %}
+    </div>
+  {% endfor %}
+</div>

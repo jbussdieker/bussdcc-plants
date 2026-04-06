@@ -1,0 +1,40 @@
+{% extends "bussdcc_framework/bootstrap/layout.html" %}
+
+{% block title %}Plants{% endblock %}
+{% block app_name %}bussdcc-plants{% endblock %}
+
+{% block scripts %}
+  {{ super() }}
+  {% include "bussdcc_framework/client/_client.html" %}
+  {% include "bussdcc_framework/socketio/_socketio.html" %}
+  {% include "bussdcc_framework/chartjs/_chartjs.html" %}
+  <script src="{{ url_for('bussdcc_framework_formtree.static', filename='formtree.js') }}"></script>
+{% endblock %}
+
+{% block nav %}
+  <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+    <div class="container">
+      <a class="navbar-brand" href="{{ url_for("index") }}">Plants</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link {{ "active" if request.blueprint == "bussdcc_plants_info" }}" aria-current="page" href="{{ url_for("bussdcc_plants_info.index") }}">Info</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link {{ "active" if request.blueprint == "settings" }}" aria-current="page" href="{{ url_for("settings.index") }}">Settings</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+{% endblock %}
+
+{% block container %}
+  <div class="container-fluid mt-2">
+    {{ render_messages() }}
+    {% block content %}{% endblock %}
+  </div>
+{% endblock %}

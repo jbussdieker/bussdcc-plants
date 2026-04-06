@@ -1,0 +1,65 @@
+[project]
+name = "bussdcc-plants"
+dynamic = [
+    "version",
+]
+dependencies = [
+    "bussdcc-framework ~= 0.44.0",
+]
+description = "bussdcc-plants"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [
+    { name = "Joshua B. Bussdieker", email = "jbussdieker@gmail.com" },
+]
+maintainers = [
+    { name = "Joshua B. Bussdieker", email = "jbussdieker@gmail.com" },
+]
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Operating System :: OS Independent",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Natural Language :: English",
+    "Typing :: Typed",
+]
+keywords = [
+    "plants",
+]
+license = "MIT"
+
+[project.entry-points."bussdcc_framework.web"]
+plants-info = "bussdcc_plants.interface.web.info.plugin:plugin"
+
+[project.scripts]
+bussdcc-plants = "bussdcc_plants.cli:main"
+
+[project.optional-dependencies]
+hardware = [
+    "bussdcc-hardware ~= 0.29.0",
+]
+dev = [
+    "types-psutil",
+    "bussdcc-framework[dev]",
+]
+
+[project.urls]
+Homepage = "https://github.com/jbussdieker/bussdcc-plants"
+Documentation = "https://github.com/jbussdieker/bussdcc-plants/blob/main/README.md"
+Repository = "https://github.com/jbussdieker/bussdcc-plants"
+Issues = "https://github.com/jbussdieker/bussdcc-plants/issues"
+Changelog = "https://github.com/jbussdieker/bussdcc-plants/blob/main/CHANGELOG.md"
+
+[build-system]
+requires = [
+    "setuptools",
+    "setuptools-scm",
+]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
+fallback_version = "0.0.0"

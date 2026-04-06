@@ -1,0 +1,215 @@
+{% extends "base.html" %}
+{% import "bussdcc_plants/info/_components.jinja" as plantui %}
+
+{% block content %}
+<div class="row g-2">
+  <div class="col-12 col-md-4 col-lg-3">
+    {% include "bussdcc_plants/info/_list.html" %}
+  </div>
+
+  <div class="col-12 col-md-8 col-lg-9">
+    <div class="card mb-2">
+      <div class="card-body py-2">
+        <div class="d-flex flex-wrap justify-content-between align-items-start gap-2 mb-2">
+          <div>
+            <h4 class="mb-1">{{ plant.name.display_name }}</h4>
+            <div class="text-body-secondary small">
+              {{ plantui.botanical_name(plant.taxonomy) }}
+            </div>
+          </div>
+
+          <div class="d-flex flex-wrap gap-1">
+            {{ plantui.lifecycle_badge(plant.botanical_lifecycle) }}
+            {{ plantui.lifecycle_badge(plant.cultivation_lifecycle) }}
+            {{ plantui.hardiness_badge(plant.hardiness) }}
+
+            {% for qualifier in plant.name.qualifiers %}
+              <span class="badge text-bg-secondary">
+                {{ qualifier.replace("-", " ") | title }}
+              </span>
+            {% endfor %}
+          </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-sm-2 g-2">
+          <div class="col">
+            <div class="border rounded p-2 h-100">
+              <div class="text-body-secondary small">Crop</div>
+              <div>{{ plant.name.crop_name }}</div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="border rounded p-2 h-100">
+              <div class="text-body-secondary small">Variety</div>
+              <div>
+                {% if plant.name.variety_name %}
+                  {{ plant.name.variety_name }}
+                {% else %}
+                  <span class="text-body-secondary">—</span>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="border rounded p-2 h-100">
+              <div class="text-body-secondary small">Hardiness</div>
+              <div>{{ plantui.hardiness_label(plant.hardiness) }}</div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="border rounded p-2 h-100">
+              <div class="text-body-secondary small">Botanical Lifecycle</div>
+              <div>{{ plant.botanical_lifecycle or "—" }}</div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="border rounded p-2 h-100">
+              <div class="text-body-secondary small">Cultivation Lifecycle</div>
+              <div>{{ plant.cultivation_lifecycle or "—" }}</div>
+            </div>
+          </div>
+
+          <div class="col-12">
+            <div class="border rounded p-2">
+              <div class="text-body-secondary small">Link</div>
+              <div>
+                {% if plant.url %}
+                  <a target="_blank" href="{{ plant.url }}">
+                    {{ plant.name.display_name or plant.url }}
+                  </a>
+                {% else %}
+                  <span class="text-body-secondary">—</span>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card mb-2">
+      <div class="card-body py-2">
+        <h5 class="mb-2">Watering</h5>
+
+        <div class="mb-2">
+          {{ plantui.hydration_range(plant.hydration) }}
+        </div>
+
+        <div class="row row-cols-1 row-cols-sm-2 g-2">
+          <div class="col">
+            <div class="border rounded p-2 h-100">
+              <div class="text-body-secondary small">Hydration Min</div>
+              <div>
+                {% if plant.hydration and plant.hydration.target %}
+                  {{ (plant.hydration.target.min * 100) | int }}%
+                {% else %}
+                  <span class="text-body-secondary">—</span>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="border rounded p-2 h-100">
+              <div class="text-body-secondary small">Hydration Max</div>
+              <div>
+                {% if plant.hydration and plant.hydration.target %}
+                  {{ (plant.hydration.target.max * 100) | int }}%
+                {% else %}
+                  <span class="text-body-secondary">—</span>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row g-2">
+      <div class="col-12 col-xl-6">
+        <div class="card mb-2 h-100">
+          <div class="card-body py-2">
+            <h5 class="mb-2">Planting</h5>
+
+            <div class="row row-cols-1 g-2">
+              <div class="col">
+                <div class="border rounded p-2">
+                  <div class="text-body-secondary small">Depth</div>
+                  <div>{{ plantui.planting_depth_label(plant.planting_depth) }}</div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="border rounded p-2">
+                  <div class="text-body-secondary small">Plant Spacing</div>
+                  <div>{{ plantui.distance_label(plant.spacing.plant if plant.spacing else none) }}</div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="border rounded p-2">
+                  <div class="text-body-secondary small">Row Spacing</div>
+                  <div>{{ plantui.distance_label(plant.spacing.row if plant.spacing else none) }}</div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="border rounded p-2">
+                  <div class="text-body-secondary small">Qualifiers</div>
+                  <div class="d-flex flex-wrap gap-1 align-items-center">
+                    {% if plant.name.qualifiers %}
+                      {% for qualifier in plant.name.qualifiers %}
+                        <span class="badge text-bg-secondary">
+                          {{ qualifier.replace("-", " ") | title }}
+                        </span>
+                      {% endfor %}
+                    {% else %}
+                      <span class="text-body-secondary">None</span>
+                    {% endif %}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-xl-6">
+        <div class="card mb-2 h-100">
+          <div class="card-body py-2">
+            <h5 class="mb-2">Taxonomy</h5>
+
+            <div class="row row-cols-1 g-2">
+              <div class="col">
+                <div class="border rounded p-2">
+                  <div class="text-body-secondary small">Botanical Name</div>
+                  <div>{{ plantui.botanical_name(plant.taxonomy) }}</div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="border rounded p-2">
+                  <div class="text-body-secondary small">Genus</div>
+                  <div>{{ plant.taxonomy.genus if plant.taxonomy else "—" }}</div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="border rounded p-2">
+                  <div class="text-body-secondary small">Species</div>
+                  <div>{{ plant.taxonomy.species if plant.taxonomy else "—" }}</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+{% endblock %}
