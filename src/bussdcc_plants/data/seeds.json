@@ -1,5 +1,565 @@
 {
   "plants": {
+    "09fe6990-06b3-42b1-b5e9-34a63bedeb9c": {
+      "name": {
+        "crop_name": "Raspberry",
+        "variety_name": "Fall Gold",
+        "qualifiers": [],
+        "source_label": "Raspberry Roots - Fall Gold"
+      },
+      "url": "https://trueleafmarket.com/products/raspberry-roots-fall-gold",
+      "planting_depth": {
+        "min": 2,
+        "max": 3,
+        "unit": "in"
+      },
+      "botanical_lifecycle": "perennial",
+      "cultivation_lifecycle": "perennial",
+      "spacing": {
+        "plant": {
+          "min": 36.0,
+          "max": 36.0,
+          "unit": "in"
+        },
+        "row": {
+          "min": 72.0,
+          "max": 72.0,
+          "unit": "in"
+        }
+      },
+      "hydration": {
+        "target": {
+          "min": 0.6,
+          "max": 0.85
+        }
+      },
+      "hardiness": {
+        "min": 4,
+        "max": 7
+      },
+      "taxonomy": {
+        "genus": "Rubus",
+        "species": "idaeus"
+      }
+    },
+    "2416c76e-d186-4017-8329-95d714c5ebd2": {
+      "name": {
+        "crop_name": "Barley",
+        "variety_name": "Common Grain",
+        "qualifiers": [],
+        "source_label": "Barley Seeds - Common Grain"
+      },
+      "url": "https://trueleafmarket.com/products/heirloom-grain-seed-barley-seed-hulled-barley-common-grain-barley",
+      "planting_depth": {
+        "min": 1.5,
+        "max": 2,
+        "unit": "in"
+      },
+      "botanical_lifecycle": "annual",
+      "cultivation_lifecycle": "annual",
+      "spacing": {
+        "plant": {
+          "min": 1.0,
+          "max": 2.0,
+          "unit": "in"
+        },
+        "row": {
+          "min": 6.0,
+          "max": 12.0,
+          "unit": "in"
+        }
+      },
+      "hydration": {
+        "target": {
+          "min": 0.45,
+          "max": 0.75
+        }
+      },
+      "hardiness": {
+        "min": 3,
+        "max": 9
+      },
+      "taxonomy": {
+        "genus": "Hordeum",
+        "species": "vulgare"
+      }
+    },
+    "c5e1cbd3-b9d7-4d12-a56e-f2e3763fc85c": {
+      "name": {
+        "crop_name": "Tobacco",
+        "variety_name": "Cherry Red",
+        "qualifiers": [],
+        "source_label": "Tobacco - Cherry Red"
+      },
+      "url": "https://trueleafmarket.com/products/tobacco-seeds-cherry-red-tobacco-seeds",
+      "planting_depth": {
+        "min": 0.0,
+        "max": 0.0,
+        "unit": "in",
+        "method": "surface"
+      },
+      "botanical_lifecycle": "annual",
+      "cultivation_lifecycle": "annual",
+      "spacing": {
+        "plant": {
+          "min": 18.0,
+          "max": 24.0,
+          "unit": "in"
+        },
+        "row": {
+          "min": 30.0,
+          "max": 36.0,
+          "unit": "in"
+        }
+      },
+      "hydration": {
+        "target": {
+          "min": 0.6,
+          "max": 0.9
+        }
+      },
+      "hardiness": {
+        "min": 4,
+        "max": 11
+      },
+      "taxonomy": {
+        "genus": "Nicotiana",
+        "species": "tabacum"
+      }
+    },
+    "a7f402af-915f-4e86-9f81-114938ca9d16": {
+      "name": {
+        "crop_name": "Hyssop",
+        "variety_name": null,
+        "qualifiers": [],
+        "source_label": "Hyssop"
+      },
+      "url": "https://trueleafmarket.com/products/hyssop-herb-seeds",
+      "planting_depth": {
+        "min": 0.125,
+        "max": 0.125,
+        "unit": "in"
+      },
+      "botanical_lifecycle": "perennial",
+      "cultivation_lifecycle": "perennial",
+      "spacing": {
+        "plant": {
+          "min": 12.0,
+          "max": 18.0,
+          "unit": "in"
+        }
+      },
+      "hydration": {
+        "target": {
+          "min": 0.35,
+          "max": 0.7
+        }
+      },
+      "hardiness": {
+        "min": 0,
+        "max": 0
+      },
+      "taxonomy": {
+        "genus": "Hyssopus",
+        "species": "officinalis"
+      }
+    },
+    "fae06b47-3ab3-4de5-81ec-93be48f5cf41": {
+      "name": {
+        "crop_name": "Sorrel",
+        "variety_name": "Large Leaf",
+        "qualifiers": [],
+        "source_label": "Sorrel - Large Leaf"
+      },
+      "url": "https://trueleafmarket.com/products/sorrel-large-leaf-seeds",
+      "planting_depth": {
+        "min": 0.25,
+        "max": 0.25,
+        "unit": "in"
+      },
+      "botanical_lifecycle": "perennial",
+      "cultivation_lifecycle": "annual",
+      "spacing": {
+        "plant": {
+          "min": 12.0,
+          "max": 18.0,
+          "unit": "in"
+        },
+        "row": {
+          "min": 18.0,
+          "max": 18.0,
+          "unit": "in"
+        }
+      },
+      "hydration": {
+        "target": {
+          "min": 0.65,
+          "max": 0.95
+        }
+      },
+      "hardiness": {
+        "min": 4,
+        "max": 10
+      },
+      "taxonomy": {
+        "genus": "Rumex",
+        "species": "acetosa"
+      }
+    },
+    "ed3a55c1-7356-40e4-bf66-b86339383cf6": {
+      "name": {
+        "crop_name": "Mugwort",
+        "variety_name": null,
+        "qualifiers": [],
+        "source_label": "Mugwort"
+      },
+      "url": "https://trueleafmarket.com/products/mugwort-seeds",
+      "planting_depth": {
+        "min": 0.0,
+        "max": 0.0,
+        "unit": "in",
+        "method": "press"
+      },
+      "botanical_lifecycle": "perennial",
+      "cultivation_lifecycle": "annual",
+      "spacing": {
+        "plant": {
+          "min": 24.0,
+          "max": 24.0,
+          "unit": "in"
+        }
+      },
+      "hydration": {
+        "target": {
+          "min": 0.4,
+          "max": 0.75
+        }
+      },
+      "hardiness": {
+        "min": 4,
+        "max": 9
+      },
+      "taxonomy": {
+        "genus": "Artemisia",
+        "species": "vulgaris"
+      }
+    },
+    "1a9dc38f-e964-4b4a-977b-a070cdb0aa7c": {
+      "name": {
+        "crop_name": "Sugar Beet",
+        "variety_name": null,
+        "qualifiers": [],
+        "source_label": "Sugar Beet"
+      },
+      "url": "https://trueleafmarket.com/products/sugar-beet-seeds",
+      "planting_depth": {
+        "min": 0.5,
+        "max": 0.5,
+        "unit": "in"
+      },
+      "botanical_lifecycle": "annual",
+      "cultivation_lifecycle": "annual",
+      "spacing": {
+        "plant": {
+          "min": 2.0,
+          "max": 3.0,
+          "unit": "in"
+        }
+      },
+      "hydration": {
+        "target": {
+          "min": 0.6,
+          "max": 0.85
+        }
+      },
+      "hardiness": {
+        "min": 0,
+        "max": 0
+      },
+      "taxonomy": {
+        "genus": "Beta",
+        "species": "vulgaris"
+      }
+    },
+    "a380c6a7-6399-47ce-a329-4ea00bc4ce75": {
+      "name": {
+        "crop_name": "Spearmint",
+        "variety_name": null,
+        "qualifiers": [],
+        "source_label": "Spearmint"
+      },
+      "url": "https://trueleafmarket.com/products/spearmint-seeds",
+      "planting_depth": {
+        "min": 0.125,
+        "max": 0.125,
+        "unit": "in"
+      },
+      "botanical_lifecycle": "perennial",
+      "cultivation_lifecycle": "perennial",
+      "spacing": {
+        "plant": {
+          "min": 12.0,
+          "max": 18.0,
+          "unit": "in"
+        },
+        "row": {
+          "min": 12.0,
+          "max": 18.0,
+          "unit": "in"
+        }
+      },
+      "hydration": {
+        "target": {
+          "min": 0.70,
+          "max": 0.95
+        }
+      },
+      "hardiness": {
+        "min": 4,
+        "max": 8
+      },
+      "taxonomy": {
+        "genus": "Mentha",
+        "species": "spicata"
+      }
+    },
+    "05069183-947d-4913-95ee-0a749edcda74": {
+      "name": {
+        "crop_name": "Valerian",
+        "variety_name": "Common",
+        "qualifiers": [],
+        "source_label": "Common Valerian"
+      },
+      "url": "https://trueleafmarket.com/products/valerian",
+      "planting_depth": {
+        "min": 0.125,
+        "max": 0.125,
+        "unit": "in"
+      },
+      "botanical_lifecycle": "perennial",
+      "cultivation_lifecycle": "perennial",
+      "spacing": {
+        "plant": {
+          "min": 12.0,
+          "max": 24.0,
+          "unit": "in"
+        },
+        "row": {
+          "min": 24.0,
+          "max": 36.0,
+          "unit": "in"
+        }
+      },
+      "hydration": {
+        "target": {
+          "min": 0.6,
+          "max": 0.85
+        }
+      },
+      "hardiness": {
+        "min": 4,
+        "max": 9
+      },
+      "taxonomy": {
+        "genus": "Valeriana",
+        "species": "officinalis"
+      }
+    },
+    "335e6f8f-c9b7-4f82-bbf4-6e77071984a7": {
+      "name": {
+        "crop_name": "Marshmallow",
+        "variety_name": null,
+        "qualifiers": [],
+        "source_label": "Marshmallow"
+      },
+      "url": "https://trueleafmarket.com/products/marshmallow-herb-seeds",
+      "planting_depth": {
+        "min": 0.25,
+        "max": 0.25,
+        "unit": "in"
+      },
+      "botanical_lifecycle": "perennial",
+      "cultivation_lifecycle": "perennial",
+      "spacing": {
+        "plant": {
+          "min": 18.0,
+          "max": 24.0,
+          "unit": "in"
+        },
+        "row": {
+          "min": 24.0,
+          "max": 36.0,
+          "unit": "in"
+        }
+      },
+      "hydration": {
+        "target": {
+          "min": 0.7,
+          "max": 0.95
+        }
+      },
+      "hardiness": {
+        "min": 3,
+        "max": 9
+      },
+      "taxonomy": {
+        "genus": "Althaea",
+        "species": "officinalis"
+      }
+    },
+    "645dfbd0-2beb-47ac-bdbc-81ea2257fa4c": {
+      "name": {
+        "crop_name": "Chives",
+        "variety_name": null,
+        "qualifiers": [],
+        "source_label": "Chives"
+      },
+      "url": "https://trueleafmarket.com/products/chives-seeds",
+      "planting_depth": {
+        "min": 0.25,
+        "max": 0.25,
+        "unit": "in"
+      },
+      "botanical_lifecycle": "perennial",
+      "cultivation_lifecycle": "perennial",
+      "spacing": {
+        "plant": {
+          "min": 6.0,
+          "max": 12.0,
+          "unit": "in"
+        }
+      },
+      "hydration": {
+        "target": {
+          "min": 0.6,
+          "max": 0.85
+        }
+      },
+      "hardiness": {
+        "min": 3,
+        "max": 11
+      },
+      "taxonomy": {
+        "genus": "Allium",
+        "species": "schoenoprasum"
+      }
+    },
+    "e45a503f-4847-4d13-9092-b228128a2640": {
+      "name": {
+        "crop_name": "Chives",
+        "variety_name": "Garlic",
+        "qualifiers": ["organic"],
+        "source_label": "Garlic Chives (Organic)"
+      },
+      "url": "https://trueleafmarket.com/products/chives-garlic-organic",
+      "planting_depth": {
+        "min": 0.25,
+        "max": 0.25,
+        "unit": "in"
+      },
+      "botanical_lifecycle": "perennial",
+      "cultivation_lifecycle": "perennial",
+      "spacing": {
+        "plant": {
+          "min": 8.0,
+          "max": 10.0,
+          "unit": "in"
+        }
+      },
+      "hydration": {
+        "target": {
+          "min": 0.6,
+          "max": 0.85
+        }
+      },
+      "hardiness": {
+        "min": 3,
+        "max": 10
+      },
+      "taxonomy": {
+        "genus": "Allium",
+        "species": "tuberosum"
+      }
+    },
+    "5fe78191-016e-4e23-a48a-fccc53431a02": {
+      "name": {
+        "crop_name": "Fenugreek",
+        "variety_name": null,
+        "qualifiers": ["organic"],
+        "source_label": "Fenugreek (Organic)"
+      },
+      "url": "https://trueleafmarket.com/products/fenugreek-organic-herb-seeds",
+      "planting_depth": {
+        "min": 0.25,
+        "max": 0.25,
+        "unit": "in"
+      },
+      "botanical_lifecycle": "annual",
+      "cultivation_lifecycle": "annual",
+      "spacing": {
+        "plant": {
+          "min": 2.0,
+          "max": 6.0,
+          "unit": "in"
+        }
+      },
+      "hydration": {
+        "target": {
+          "min": 0.5,
+          "max": 0.75
+        }
+      },
+      "hardiness": {
+        "min": 9,
+        "max": 11
+      },
+      "taxonomy": {
+        "genus": "Trigonella",
+        "species": "foenum-graecum"
+      }
+    },
+    "9477a7ca-b924-4fa1-b5e8-188ad1090f84": {
+      "name": {
+        "crop_name": "Marjoram",
+        "variety_name": null,
+        "qualifiers": ["organic"],
+        "source_label": "Marjoram (Organic)"
+      },
+      "url": "https://trueleafmarket.com/products/marjoram-seeds-organic",
+      "planting_depth": {
+        "min": 0.25,
+        "max": 0.25,
+        "unit": "in"
+      },
+      "botanical_lifecycle": "perennial",
+      "cultivation_lifecycle": "annual",
+      "spacing": {
+        "plant": {
+          "min": 6.0,
+          "max": 12.0,
+          "unit": "in"
+        },
+        "row": {
+          "min": 18.0,
+          "max": 24.0,
+          "unit": "in"
+        }
+      },
+      "hydration": {
+        "target": {
+          "min": 0.35,
+          "max": 0.7
+        }
+      },
+      "hardiness": {
+        "min": 9,
+        "max": 11
+      },
+      "taxonomy": {
+        "genus": "Origanum",
+        "species": "majorana"
+      }
+    },
     "bab46bdb-17f6-45ab-8df5-2c97037a8e90": {
       "name": {
         "crop_name": "Basil",

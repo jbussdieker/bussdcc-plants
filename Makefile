@@ -44,6 +44,9 @@ context:
 	@cat pyproject.toml
 	@echo ""
 	@echo ""
+	@for f in $$(find src -type f -name "*.json"); do echo "# $$f"; cat $$f; echo; echo; done
+	@echo ""
+	@echo ""
 	@for f in $$(find src -type f -name "*.html"); do echo "# $$f"; cat $$f; echo; echo; done
 	@echo ""
 	@echo ""
