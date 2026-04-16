@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.0](https://github.com/jbussdieker/bussdcc-plants/compare/v0.2.0...v0.3.0) (2026-04-16)
+
+
+### Features
+
+* **data:** update seeds.json with new plant data ([5a7b8b7](https://github.com/jbussdieker/bussdcc-plants/commit/5a7b8b7f06111a511bd8ee535cb1df370ad03d0e))
+
 ## [0.2.0](https://github.com/jbussdieker/bussdcc-plants/compare/v0.1.0...v0.2.0) (2026-04-14)
 
 
