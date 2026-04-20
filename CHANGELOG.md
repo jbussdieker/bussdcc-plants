@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.0](https://github.com/jbussdieker/bussdcc-plants/compare/v0.3.0...v0.4.0) (2026-04-20)
+
+
+### Features
+
+* **deps:** update bussdcc-framework to 0.46.0 and remove unused dependencies ([8c2895d](https://github.com/jbussdieker/bussdcc-plants/commit/8c2895dacec736cf3598455c853b54df6f3c18da))
+
 ## [0.3.0](https://github.com/jbussdieker/bussdcc-plants/compare/v0.2.0...v0.3.0) (2026-04-16)
 
 
