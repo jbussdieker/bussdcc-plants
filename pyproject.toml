@@ -4,7 +4,7 @@ dynamic = [
     "version",
 ]
 dependencies = [
-    "bussdcc-framework ~= 0.45.0",
+    "bussdcc-framework ~= 0.46.0",
 ]
 description = "bussdcc-plants"
 readme = "README.md"
@@ -39,11 +39,7 @@ plants-info = "bussdcc_plants.interface.web.info.plugin:plugin"
 bussdcc-plants = "bussdcc_plants.cli:main"
 
 [project.optional-dependencies]
-hardware = [
-    "bussdcc-hardware ~= 0.29.0",
-]
 dev = [
-    "types-psutil",
     "bussdcc-framework[dev]",
 ]
 
