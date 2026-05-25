@@ -1,5 +1,89 @@
 {
   "plants": {
+    "4f69f1a8-8153-4a79-a483-8b56746b79f6": {
+      "name": {
+        "crop_name": "Strawberry",
+        "variety_name": "Honeoye",
+        "qualifiers": [],
+        "source_label": "Honeoye Strawberry Bare Root"
+      },
+      "url": "https://www.burpee.com/strawberry-honeoye-prod600034.html",
+      "planting_depth": {
+        "min": 4.0,
+        "max": 6.0,
+        "unit": "in"
+      },
+      "botanical_lifecycle": "perennial",
+      "cultivation_lifecycle": "perennial",
+      "spacing": {
+        "plant": {
+          "min": 12.0,
+          "max": 18.0,
+          "unit": "in"
+        },
+        "row": {
+          "min": 24.0,
+          "max": 36.0,
+          "unit": "in"
+        }
+      },
+      "hydration": {
+        "target": {
+          "min": 0.65,
+          "max": 0.9
+        }
+      },
+      "hardiness": {
+        "min": 4,
+        "max": 8
+      },
+      "taxonomy": {
+        "genus": "Fragaria",
+        "species": "× ananassa"
+      }
+    },
+    "21df662a-273c-49d0-b838-7b1964e75cc8": {
+      "name": {
+        "crop_name": "Strawberry",
+        "variety_name": "Albion",
+        "qualifiers": ["everbearing"],
+        "source_label": "Albion Strawberry Bare Roots"
+      },
+      "url": "https://www.burpee.com/strawberry-albion-prod000530.html",
+      "planting_depth": {
+        "min": 4.0,
+        "max": 6.0,
+        "unit": "in"
+      },
+      "botanical_lifecycle": "perennial",
+      "cultivation_lifecycle": "perennial",
+      "spacing": {
+        "plant": {
+          "min": 12.0,
+          "max": 18.0,
+          "unit": "in"
+        },
+        "row": {
+          "min": 24.0,
+          "max": 36.0,
+          "unit": "in"
+        }
+      },
+      "hydration": {
+        "target": {
+          "min": 0.65,
+          "max": 0.9
+        }
+      },
+      "hardiness": {
+        "min": 4,
+        "max": 8
+      },
+      "taxonomy": {
+        "genus": "Fragaria",
+        "species": "× ananassa"
+      }
+    },
     "09fe6990-06b3-42b1-b5e9-34a63bedeb9c": {
       "name": {
         "crop_name": "Raspberry",
