@@ -13,6 +13,11 @@
         "max": 6.0,
         "unit": "in"
       },
+      "height": {
+        "min": 8.0,
+        "max": 12.0,
+        "unit": "in"
+      },
       "botanical_lifecycle": "perennial",
       "cultivation_lifecycle": "perennial",
       "spacing": {
@@ -53,6 +58,11 @@
       "planting_depth": {
         "min": 4.0,
         "max": 6.0,
+        "unit": "in"
+      },
+      "height": {
+        "min": 8.0,
+        "max": 12.0,
         "unit": "in"
       },
       "botanical_lifecycle": "perennial",
@@ -97,6 +107,11 @@
         "max": 3,
         "unit": "in"
       },
+      "height": {
+        "min": 24.0,
+        "max": 36.0,
+        "unit": "in"
+      },
       "botanical_lifecycle": "perennial",
       "cultivation_lifecycle": "perennial",
       "spacing": {
@@ -137,6 +152,11 @@
       "planting_depth": {
         "min": 1.5,
         "max": 2,
+        "unit": "in"
+      },
+      "height": {
+        "min": 24.0,
+        "max": 48.0,
         "unit": "in"
       },
       "botanical_lifecycle": "annual",
@@ -182,6 +202,11 @@
         "unit": "in",
         "method": "surface"
       },
+      "height": {
+        "min": 36.0,
+        "max": 60.0,
+        "unit": "in"
+      },
       "botanical_lifecycle": "annual",
       "cultivation_lifecycle": "annual",
       "spacing": {
@@ -224,6 +249,11 @@
         "max": 0.125,
         "unit": "in"
       },
+      "height": {
+        "min": 18.0,
+        "max": 30.0,
+        "unit": "in"
+      },
       "botanical_lifecycle": "perennial",
       "cultivation_lifecycle": "perennial",
       "spacing": {
@@ -259,6 +289,11 @@
       "planting_depth": {
         "min": 0.25,
         "max": 0.25,
+        "unit": "in"
+      },
+      "height": {
+        "min": 12.0,
+        "max": 24.0,
         "unit": "in"
       },
       "botanical_lifecycle": "perennial",
@@ -304,6 +339,11 @@
         "unit": "in",
         "method": "press"
       },
+      "height": {
+        "min": 24.0,
+        "max": 72.0,
+        "unit": "in"
+      },
       "botanical_lifecycle": "perennial",
       "cultivation_lifecycle": "annual",
       "spacing": {
@@ -341,6 +381,11 @@
         "max": 0.5,
         "unit": "in"
       },
+      "height": {
+        "min": 12.0,
+        "max": 24.0,
+        "unit": "in"
+      },
       "botanical_lifecycle": "annual",
       "cultivation_lifecycle": "annual",
       "spacing": {
@@ -376,6 +421,11 @@
       "planting_depth": {
         "min": 0.125,
         "max": 0.125,
+        "unit": "in"
+      },
+      "height": {
+        "min": 12.0,
+        "max": 36.0,
         "unit": "in"
       },
       "botanical_lifecycle": "perennial",
@@ -420,6 +470,11 @@
         "max": 0.125,
         "unit": "in"
       },
+      "height": {
+        "min": 36.0,
+        "max": 72.0,
+        "unit": "in"
+      },
       "botanical_lifecycle": "perennial",
       "cultivation_lifecycle": "perennial",
       "spacing": {
@@ -460,6 +515,11 @@
       "planting_depth": {
         "min": 0.25,
         "max": 0.25,
+        "unit": "in"
+      },
+      "height": {
+        "min": 36.0,
+        "max": 60.0,
         "unit": "in"
       },
       "botanical_lifecycle": "perennial",
@@ -504,6 +564,11 @@
         "max": 0.25,
         "unit": "in"
       },
+      "height": {
+        "min": 6.0,
+        "max": 20.0,
+        "unit": "in"
+      },
       "botanical_lifecycle": "perennial",
       "cultivation_lifecycle": "perennial",
       "spacing": {
@@ -539,6 +604,11 @@
       "planting_depth": {
         "min": 0.25,
         "max": 0.25,
+        "unit": "in"
+      },
+      "height": {
+        "min": 12.0,
+        "max": 24.0,
         "unit": "in"
       },
       "botanical_lifecycle": "perennial",
@@ -578,6 +648,11 @@
         "max": 0.25,
         "unit": "in"
       },
+      "height": {
+        "min": 12.0,
+        "max": 24.0,
+        "unit": "in"
+      },
       "botanical_lifecycle": "annual",
       "cultivation_lifecycle": "annual",
       "spacing": {
@@ -613,6 +688,11 @@
       "planting_depth": {
         "min": 0.25,
         "max": 0.25,
+        "unit": "in"
+      },
+      "height": {
+        "min": 12.0,
+        "max": 24.0,
         "unit": "in"
       },
       "botanical_lifecycle": "perennial",
@@ -657,6 +737,11 @@
         "max": 0.25,
         "unit": "in"
       },
+      "height": {
+        "min": 12.0,
+        "max": 24.0,
+        "unit": "in"
+      },
       "botanical_lifecycle": "annual",
       "cultivation_lifecycle": "annual",
       "spacing": {
@@ -694,6 +779,11 @@
         "max": 0.25,
         "unit": "in"
       },
+      "height": {
+        "min": 18.0,
+        "max": 20.0,
+        "unit": "in"
+      },
       "botanical_lifecycle": "annual",
       "cultivation_lifecycle": "annual",
       "spacing": {
@@ -729,6 +819,11 @@
       "planting_depth": {
         "min": 0.25,
         "max": 0.5,
+        "unit": "in"
+      },
+      "height": {
+        "min": 12.0,
+        "max": 18.0,
         "unit": "in"
       },
       "botanical_lifecycle": "biennial",
@@ -771,6 +866,11 @@
       "planting_depth": {
         "min": 0.5,
         "max": 0.5,
+        "unit": "in"
+      },
+      "height": {
+        "min": 6.0,
+        "max": 18.0,
         "unit": "in"
       },
       "botanical_lifecycle": "biennial",
@@ -816,6 +916,11 @@
         "unit": "in",
         "method": "press"
       },
+      "height": {
+        "min": 18.0,
+        "max": 24.0,
+        "unit": "in"
+      },
       "botanical_lifecycle": "biennial",
       "cultivation_lifecycle": "biennial",
       "spacing": {
@@ -859,6 +964,11 @@
         "unit": "in",
         "method": "cover_lightly"
       },
+      "height": {
+        "min": 18.0,
+        "max": 24.0,
+        "unit": "in"
+      },
       "botanical_lifecycle": "annual",
       "cultivation_lifecycle": "annual",
       "spacing": {
@@ -894,6 +1004,11 @@
       "planting_depth": {
         "min": 0.25,
         "max": 0.25,
+        "unit": "in"
+      },
+      "height": {
+        "min": 18.0,
+        "max": 24.0,
         "unit": "in"
       },
       "botanical_lifecycle": "annual",
@@ -939,6 +1054,11 @@
         "unit": "in",
         "method": "cover_lightly"
       },
+      "height": {
+        "min": 12.0,
+        "max": 18.0,
+        "unit": "in"
+      },
       "botanical_lifecycle": "annual",
       "cultivation_lifecycle": "annual",
       "spacing": {
@@ -979,6 +1099,11 @@
       "planting_depth": {
         "min": 0.25,
         "max": 0.25,
+        "unit": "in"
+      },
+      "height": {
+        "min": 24.0,
+        "max": 36.0,
         "unit": "in"
       },
       "botanical_lifecycle": "annual",
@@ -1023,6 +1148,11 @@
         "max": 0.25,
         "unit": "in"
       },
+      "height": {
+        "min": 24.0,
+        "max": 36.0,
+        "unit": "in"
+      },
       "botanical_lifecycle": "perennial",
       "cultivation_lifecycle": "annual",
       "spacing": {
@@ -1063,6 +1193,11 @@
       "planting_depth": {
         "min": 2.0,
         "max": 4.0,
+        "unit": "in"
+      },
+      "height": {
+        "min": 14.0,
+        "max": 16.0,
         "unit": "in"
       },
       "botanical_lifecycle": "perennial",
@@ -1108,6 +1243,11 @@
         "unit": "in",
         "method": "press"
       },
+      "height": {
+        "min": 18.0,
+        "max": 30.0,
+        "unit": "in"
+      },
       "botanical_lifecycle": "perennial",
       "cultivation_lifecycle": "perennial",
       "spacing": {
@@ -1145,6 +1285,11 @@
         "max": 0.0,
         "unit": "in",
         "method": "surface"
+      },
+      "height": {
+        "min": 18.0,
+        "max": 26.0,
+        "unit": "in"
       },
       "botanical_lifecycle": "perennial",
       "cultivation_lifecycle": "perennial",
@@ -1184,6 +1329,11 @@
         "unit": "in",
         "method": "surface"
       },
+      "height": {
+        "min": 24.0,
+        "max": 48.0,
+        "unit": "in"
+      },
       "botanical_lifecycle": "perennial",
       "cultivation_lifecycle": "perennial",
       "spacing": {
@@ -1219,6 +1369,11 @@
       "planting_depth": {
         "min": 0.125,
         "max": 0.125,
+        "unit": "in"
+      },
+      "height": {
+        "min": 4.0,
+        "max": 12.0,
         "unit": "in"
       },
       "botanical_lifecycle": "perennial",
@@ -1260,6 +1415,11 @@
         "method": "trench",
         "notes": "Minimum trench length 12 in."
       },
+      "height": {
+        "min": 18.0,
+        "max": 36.0,
+        "unit": "in"
+      },
       "botanical_lifecycle": "biennial",
       "cultivation_lifecycle": "biennial",
       "spacing": {
@@ -1300,6 +1460,11 @@
       "planting_depth": {
         "min": 1.0,
         "max": 2.0,
+        "unit": "in"
+      },
+      "height": {
+        "min": 12.0,
+        "max": 36.0,
         "unit": "in"
       },
       "botanical_lifecycle": "biennial",
@@ -1344,6 +1509,11 @@
         "max": 0.25,
         "unit": "in"
       },
+      "height": {
+        "min": 12.0,
+        "max": 24.0,
+        "unit": "in"
+      },
       "botanical_lifecycle": "perennial",
       "cultivation_lifecycle": "perennial",
       "spacing": {
@@ -1379,6 +1549,11 @@
       "planting_depth": {
         "min": 0.25,
         "max": 0.25,
+        "unit": "in"
+      },
+      "height": {
+        "min": 12.0,
+        "max": 24.0,
         "unit": "in"
       },
       "botanical_lifecycle": "perennial",
@@ -1420,6 +1595,11 @@
         "max": 0.25,
         "unit": "in"
       },
+      "height": {
+        "min": 12.0,
+        "max": 24.0,
+        "unit": "in"
+      },
       "botanical_lifecycle": "perennial",
       "cultivation_lifecycle": "perennial",
       "spacing": {
@@ -1455,6 +1635,11 @@
       "planting_depth": {
         "min": 0.25,
         "max": 0.25,
+        "unit": "in"
+      },
+      "height": {
+        "min": 12.0,
+        "max": 14.0,
         "unit": "in"
       },
       "botanical_lifecycle": "biennial",
@@ -1499,6 +1684,11 @@
         "max": 0.25,
         "unit": "in"
       },
+      "height": {
+        "min": 10.0,
+        "max": 18.0,
+        "unit": "in"
+      },
       "botanical_lifecycle": "perennial",
       "cultivation_lifecycle": "annual",
       "spacing": {
@@ -1541,6 +1731,11 @@
         "max": 0.25,
         "unit": "in"
       },
+      "height": {
+        "min": 18.0,
+        "max": 24.0,
+        "unit": "in"
+      },
       "botanical_lifecycle": "perennial",
       "cultivation_lifecycle": "annual",
       "spacing": {
@@ -1581,6 +1776,11 @@
       "planting_depth": {
         "min": 0.25,
         "max": 0.25,
+        "unit": "in"
+      },
+      "height": {
+        "min": 18.0,
+        "max": 30.0,
         "unit": "in"
       },
       "botanical_lifecycle": "perennial",
@@ -1626,6 +1826,11 @@
         "unit": "in",
         "method": "trench"
       },
+      "height": {
+        "min": 30.0,
+        "max": 36.0,
+        "unit": "in"
+      },
       "botanical_lifecycle": "perennial",
       "cultivation_lifecycle": "annual",
       "spacing": {
@@ -1666,6 +1871,11 @@
       "planting_depth": {
         "min": 1.0,
         "max": 1.0,
+        "unit": "in"
+      },
+      "height": {
+        "min": 18.0,
+        "max": 24.0,
         "unit": "in"
       },
       "botanical_lifecycle": "annual",
@@ -1711,6 +1921,11 @@
         "unit": "in",
         "method": "press"
       },
+      "height": {
+        "min": 36.0,
+        "max": 48.0,
+        "unit": "in"
+      },
       "botanical_lifecycle": "perennial",
       "cultivation_lifecycle": "perennial",
       "spacing": {
@@ -1748,6 +1963,11 @@
         "max": 0.25,
         "unit": "in"
       },
+      "height": {
+        "min": 18.0,
+        "max": 30.0,
+        "unit": "in"
+      },
       "botanical_lifecycle": "perennial",
       "cultivation_lifecycle": "perennial",
       "spacing": {
@@ -1783,6 +2003,11 @@
       "planting_depth": {
         "min": 0.5,
         "max": 0.5,
+        "unit": "in"
+      },
+      "height": {
+        "min": 9.0,
+        "max": 15.0,
         "unit": "in"
       },
       "botanical_lifecycle": "annual",
@@ -1827,6 +2052,11 @@
         "max": 0.25,
         "unit": "in"
       },
+      "height": {
+        "min": 18.0,
+        "max": 36.0,
+        "unit": "in"
+      },
       "botanical_lifecycle": "perennial",
       "cultivation_lifecycle": "annual",
       "spacing": {
@@ -1862,6 +2092,11 @@
       "planting_depth": {
         "min": 4.0,
         "max": 6.0,
+        "unit": "in"
+      },
+      "height": {
+        "min": 8.0,
+        "max": 12.0,
         "unit": "in"
       },
       "botanical_lifecycle": "perennial",
@@ -1906,6 +2141,11 @@
         "max": 0.25,
         "unit": "in"
       },
+      "height": {
+        "min": 6.0,
+        "max": 12.0,
+        "unit": "in"
+      },
       "botanical_lifecycle": "perennial",
       "cultivation_lifecycle": "perennial",
       "spacing": {
@@ -1943,6 +2183,11 @@
         "max": 0.0,
         "unit": "in",
         "method": "surface"
+      },
+      "height": {
+        "min": 36.0,
+        "max": 60.0,
+        "unit": "in"
       },
       "botanical_lifecycle": "annual",
       "cultivation_lifecycle": "annual",
@@ -1984,6 +2229,11 @@
       "planting_depth": {
         "min": 1.0,
         "max": 1.0,
+        "unit": "in"
+      },
+      "height": {
+        "min": 12.0,
+        "max": 18.0,
         "unit": "in"
       },
       "botanical_lifecycle": "annual",
@@ -2028,6 +2278,11 @@
         "max": 0.5,
         "unit": "in"
       },
+      "height": {
+        "min": 24.0,
+        "max": 42.0,
+        "unit": "in"
+      },
       "botanical_lifecycle": "annual",
       "cultivation_lifecycle": "annual",
       "spacing": {
@@ -2070,6 +2325,11 @@
         "max": 0.5,
         "unit": "in"
       },
+      "height": {
+        "min": 30.0,
+        "max": 48.0,
+        "unit": "in"
+      },
       "botanical_lifecycle": "annual",
       "cultivation_lifecycle": "annual",
       "spacing": {
@@ -2110,6 +2370,11 @@
       "planting_depth": {
         "min": 0.25,
         "max": 0.25,
+        "unit": "in"
+      },
+      "height": {
+        "min": 60.0,
+        "max": 120.0,
         "unit": "in"
       },
       "botanical_lifecycle": "perennial",

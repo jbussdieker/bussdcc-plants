@@ -177,6 +177,20 @@ class Taxonomy:
     )
 
 
+@dataclass(slots=True, kw_only=True)
+class PlantHeight:
+    min: float = config_field(
+        doc="Minimum mature plant height.",
+    )
+    max: float = config_field(
+        doc="Maximum mature plant height.",
+    )
+    unit: DistanceUnit = config_field(
+        doc="Unit of measure for the distance range.",
+        examples=("in",),
+    )
+
+
 @dataclass(frozen=True, slots=True)
 class PlantName:
     crop_name: str
@@ -223,6 +237,7 @@ class PlantSpec:
         default=None,
     )
     planting_depth: PlantingDepth = config_field(doc="Planting depth recommendation.")
+    height: PlantHeight = config_field(doc="Mature plant height.")
     botanical_lifecycle: Lifecycle = config_field(
         doc="Lifecycle in botanical terms.",
         examples=("annual", "biennial", "perennial"),
