@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.5.0](https://github.com/jbussdieker/bussdcc-plants/compare/v0.4.0...v0.5.0) (2026-05-25)
+
+
+### Features
+
+* **data, ui, model:** add plant height information ([2883ff7](https://github.com/jbussdieker/bussdcc-plants/commit/2883ff7d86d817d5e2bd55935a8d40831daced11))
+* **data:** add new strawberry varieties to seeds.json ([9d5ab7c](https://github.com/jbussdieker/bussdcc-plants/commit/9d5ab7c0762af865e5e6e33865f93eeec4cfa84b))
+
 ## [0.4.0](https://github.com/jbussdieker/bussdcc-plants/compare/v0.3.0...v0.4.0) (2026-04-20)
 
 
