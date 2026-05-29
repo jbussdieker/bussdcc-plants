@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.6.0](https://github.com/jbussdieker/bussdcc-plants/compare/v0.5.0...v0.6.0) (2026-05-29)
+
+
+### Features
+
+* **data:** add new plant varieties to seeds.json ([ba115f9](https://github.com/jbussdieker/bussdcc-plants/commit/ba115f96ae4f40cddf7ed3928817be4aebe35e82))
+
 ## [0.5.0](https://github.com/jbussdieker/bussdcc-plants/compare/v0.4.0...v0.5.0) (2026-05-25)
 
 
