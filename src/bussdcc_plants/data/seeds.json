@@ -2405,6 +2405,535 @@
         "genus": "Solanum",
         "species": "lycopersicum"
       }
+    },
+    "6d7614c0-5c16-4f2d-a59d-4c7e5f6fd001": {
+      "name": {
+        "crop_name": "Oat",
+        "variety_name": "Hulless",
+        "qualifiers": ["organic", "heirloom"],
+        "source_label": "True Leaf Market"
+      },
+      "url": "https://trueleafmarket.com/products/heirloom-grain-seed-oat-seed-hulless-oats-hulless-oat",
+      "planting_depth": {
+        "min": 0.5,
+        "max": 1.0,
+        "unit": "in",
+        "method": "cover_lightly",
+        "notes": "Direct sow."
+      },
+      "height": {
+        "min": 24,
+        "max": 48,
+        "unit": "in"
+      },
+      "botanical_lifecycle": "annual",
+      "cultivation_lifecycle": "annual",
+      "spacing": {
+        "plant": {
+          "min": 1,
+          "max": 2,
+          "unit": "in"
+        },
+        "row": {
+          "min": 6,
+          "max": 12,
+          "unit": "in"
+        }
+      },
+      "hydration": {
+        "target": {
+          "min": 0.55,
+          "max": 0.8
+        }
+      },
+      "hardiness": {
+        "min": 3,
+        "max": 9
+      },
+      "taxonomy": {
+        "genus": "Avena",
+        "species": "sativa"
+      }
+    },
+    "ecfe847f-c7c6-4f4f-9186-42ef760ec002": {
+      "name": {
+        "crop_name": "Rye",
+        "variety_name": "Winter",
+        "qualifiers": ["organic", "cover-crop"],
+        "source_label": "True Leaf Market"
+      },
+      "url": "https://trueleafmarket.com/products/rye-grain-seed-organic-1",
+      "planting_depth": {
+        "min": 0.5,
+        "max": 1.5,
+        "unit": "in",
+        "method": "cover_lightly"
+      },
+      "height": {
+        "min": 36,
+        "max": 72,
+        "unit": "in"
+      },
+      "botanical_lifecycle": "annual",
+      "cultivation_lifecycle": "annual",
+      "spacing": {
+        "plant": {
+          "min": 1,
+          "max": 2,
+          "unit": "in"
+        },
+        "row": {
+          "min": 6,
+          "max": 12,
+          "unit": "in"
+        }
+      },
+      "hydration": {
+        "target": {
+          "min": 0.45,
+          "max": 0.75
+        }
+      },
+      "hardiness": {
+        "min": 3,
+        "max": 10
+      },
+      "taxonomy": {
+        "genus": "Secale",
+        "species": "cereale"
+      }
+    },
+    "ba7f9c55-b0db-45bb-a3fd-c8439fbc3003": {
+      "name": {
+        "crop_name": "Clover",
+        "variety_name": "Trio",
+        "qualifiers": ["cover-crop"],
+        "source_label": "True Leaf Market"
+      },
+      "url": "https://trueleafmarket.com/products/clover-trio-cover-crop-seed-mix",
+      "planting_depth": {
+        "min": 0.125,
+        "max": 0.25,
+        "unit": "in",
+        "method": "surface",
+        "notes": "Press into soil lightly."
+      },
+      "height": {
+        "min": 6,
+        "max": 24,
+        "unit": "in"
+      },
+      "botanical_lifecycle": "perennial",
+      "cultivation_lifecycle": "annual",
+      "spacing": {
+        "plant": {
+          "min": 2,
+          "max": 4,
+          "unit": "in"
+        },
+        "row": {
+          "min": 6,
+          "max": 12,
+          "unit": "in"
+        }
+      },
+      "hydration": {
+        "target": {
+          "min": 0.5,
+          "max": 0.8
+        }
+      },
+      "hardiness": {
+        "min": 3,
+        "max": 10
+      },
+      "taxonomy": {
+        "genus": "Trifolium",
+        "species": "spp."
+      }
+    },
+    "d1c29d90-ec0f-4f5f-87f6-8519fd760004": {
+      "name": {
+        "crop_name": "Corn",
+        "variety_name": "Hopi Blue",
+        "qualifiers": ["heirloom"],
+        "source_label": "True Leaf Market"
+      },
+      "url": "https://trueleafmarket.com/products/corn-ornamental-blue-hopi",
+      "planting_depth": {
+        "min": 1,
+        "max": 1.5,
+        "unit": "in",
+        "method": "press"
+      },
+      "height": {
+        "min": 60,
+        "max": 96,
+        "unit": "in"
+      },
+      "botanical_lifecycle": "annual",
+      "cultivation_lifecycle": "annual",
+      "spacing": {
+        "plant": {
+          "min": 8,
+          "max": 12,
+          "unit": "in"
+        },
+        "row": {
+          "min": 24,
+          "max": 36,
+          "unit": "in"
+        }
+      },
+      "hydration": {
+        "target": {
+          "min": 0.6,
+          "max": 0.85
+        }
+      },
+      "hardiness": {
+        "min": 4,
+        "max": 10
+      },
+      "taxonomy": {
+        "genus": "Zea",
+        "species": "mays"
+      }
+    },
+    "a1dcbf71-76dd-44f4-a28f-4b5f841a1005": {
+      "name": {
+        "crop_name": "Basil",
+        "variety_name": "Thai",
+        "qualifiers": ["organic"],
+        "source_label": "True Leaf Market"
+      },
+      "url": "https://trueleafmarket.com/products/basil-seeds-thai-organic",
+      "planting_depth": {
+        "min": 0.125,
+        "max": 0.25,
+        "unit": "in",
+        "method": "cover_lightly"
+      },
+      "height": {
+        "min": 12,
+        "max": 24,
+        "unit": "in"
+      },
+      "botanical_lifecycle": "annual",
+      "cultivation_lifecycle": "annual",
+      "spacing": {
+        "plant": {
+          "min": 8,
+          "max": 12,
+          "unit": "in"
+        },
+        "row": {
+          "min": 12,
+          "max": 18,
+          "unit": "in"
+        }
+      },
+      "hydration": {
+        "target": {
+          "min": 0.6,
+          "max": 0.85
+        }
+      },
+      "hardiness": {
+        "min": 10,
+        "max": 11
+      },
+      "taxonomy": {
+        "genus": "Ocimum",
+        "species": "basilicum"
+      }
+    },
+    "31e4a0c2-95b1-4dcf-a924-6c7c11d0b006": {
+      "name": {
+        "crop_name": "Basil",
+        "variety_name": "Cinnamon",
+        "source_label": "True Leaf Market"
+      },
+      "url": "https://trueleafmarket.com/products/basil-cinnamon",
+      "planting_depth": {
+        "min": 0.125,
+        "max": 0.25,
+        "unit": "in",
+        "method": "cover_lightly"
+      },
+      "height": {
+        "min": 18,
+        "max": 30,
+        "unit": "in"
+      },
+      "botanical_lifecycle": "annual",
+      "cultivation_lifecycle": "annual",
+      "spacing": {
+        "plant": {
+          "min": 8,
+          "max": 12,
+          "unit": "in"
+        },
+        "row": {
+          "min": 12,
+          "max": 18,
+          "unit": "in"
+        }
+      },
+      "hydration": {
+        "target": {
+          "min": 0.6,
+          "max": 0.85
+        }
+      },
+      "hardiness": {
+        "min": 10,
+        "max": 11
+      },
+      "taxonomy": {
+        "genus": "Ocimum",
+        "species": "basilicum"
+      }
+    },
+    "dcb72ef0-964f-43ef-9f8e-4b4d15b1a007": {
+      "name": {
+        "crop_name": "Basil",
+        "variety_name": "Sweet",
+        "qualifiers": ["organic"],
+        "source_label": "True Leaf Market"
+      },
+      "url": "https://trueleafmarket.com/products/basil-seeds-sweet-organic",
+      "planting_depth": {
+        "min": 0.125,
+        "max": 0.25,
+        "unit": "in",
+        "method": "cover_lightly"
+      },
+      "height": {
+        "min": 18,
+        "max": 30,
+        "unit": "in"
+      },
+      "botanical_lifecycle": "annual",
+      "cultivation_lifecycle": "annual",
+      "spacing": {
+        "plant": {
+          "min": 8,
+          "max": 12,
+          "unit": "in"
+        },
+        "row": {
+          "min": 12,
+          "max": 18,
+          "unit": "in"
+        }
+      },
+      "hydration": {
+        "target": {
+          "min": 0.6,
+          "max": 0.85
+        }
+      },
+      "hardiness": {
+        "min": 10,
+        "max": 11
+      },
+      "taxonomy": {
+        "genus": "Ocimum",
+        "species": "basilicum"
+      }
+    },
+    "0ec0a0c7-74a9-4700-b25c-7025db32c008": {
+      "name": {
+        "crop_name": "Basil",
+        "variety_name": "Licorice",
+        "source_label": "True Leaf Market"
+      },
+      "url": "https://trueleafmarket.com/products/basil-licorice",
+      "planting_depth": {
+        "min": 0.125,
+        "max": 0.25,
+        "unit": "in",
+        "method": "cover_lightly"
+      },
+      "height": {
+        "min": 18,
+        "max": 30,
+        "unit": "in"
+      },
+      "botanical_lifecycle": "annual",
+      "cultivation_lifecycle": "annual",
+      "spacing": {
+        "plant": {
+          "min": 8,
+          "max": 12,
+          "unit": "in"
+        },
+        "row": {
+          "min": 12,
+          "max": 18,
+          "unit": "in"
+        }
+      },
+      "hydration": {
+        "target": {
+          "min": 0.6,
+          "max": 0.85
+        }
+      },
+      "hardiness": {
+        "min": 10,
+        "max": 11
+      },
+      "taxonomy": {
+        "genus": "Ocimum",
+        "species": "basilicum"
+      }
+    },
+    "52dfbf83-5183-4701-a3f6-94d4e5df4009": {
+      "name": {
+        "crop_name": "Basil",
+        "variety_name": "Red Rubin",
+        "qualifiers": ["organic"],
+        "source_label": "True Leaf Market"
+      },
+      "url": "https://trueleafmarket.com/products/basil-seeds-red-rubin-organic",
+      "planting_depth": {
+        "min": 0.125,
+        "max": 0.25,
+        "unit": "in",
+        "method": "cover_lightly"
+      },
+      "height": {
+        "min": 18,
+        "max": 30,
+        "unit": "in"
+      },
+      "botanical_lifecycle": "annual",
+      "cultivation_lifecycle": "annual",
+      "spacing": {
+        "plant": {
+          "min": 8,
+          "max": 12,
+          "unit": "in"
+        },
+        "row": {
+          "min": 12,
+          "max": 18,
+          "unit": "in"
+        }
+      },
+      "hydration": {
+        "target": {
+          "min": 0.6,
+          "max": 0.85
+        }
+      },
+      "hardiness": {
+        "min": 10,
+        "max": 11
+      },
+      "taxonomy": {
+        "genus": "Ocimum",
+        "species": "basilicum"
+      }
+    },
+    "7f76d96c-fd91-4fd9-a09d-55f5a5a39010": {
+      "name": {
+        "crop_name": "Basil",
+        "variety_name": "Sacred",
+        "qualifiers": ["organic"],
+        "source_label": "True Leaf Market"
+      },
+      "url": "https://trueleafmarket.com/products/organic-basil-sacred",
+      "planting_depth": {
+        "min": 0.125,
+        "max": 0.25,
+        "unit": "in",
+        "method": "surface",
+        "notes": "Requires light for best germination."
+      },
+      "height": {
+        "min": 12,
+        "max": 24,
+        "unit": "in"
+      },
+      "botanical_lifecycle": "perennial",
+      "cultivation_lifecycle": "annual",
+      "spacing": {
+        "plant": {
+          "min": 8,
+          "max": 12,
+          "unit": "in"
+        },
+        "row": {
+          "min": 12,
+          "max": 18,
+          "unit": "in"
+        }
+      },
+      "hydration": {
+        "target": {
+          "min": 0.6,
+          "max": 0.85
+        }
+      },
+      "hardiness": {
+        "min": 10,
+        "max": 11
+      },
+      "taxonomy": {
+        "genus": "Ocimum",
+        "species": "tenuiflorum"
+      }
+    },
+    "ac7f02ff-fb47-4cf0-a6d9-30df4e4c5011": {
+      "name": {
+        "crop_name": "Basil",
+        "variety_name": "Dark Opal",
+        "qualifiers": ["organic"],
+        "source_label": "True Leaf Market"
+      },
+      "url": "https://trueleafmarket.com/products/basil-seeds-purple-dark-opal-organic",
+      "planting_depth": {
+        "min": 0.125,
+        "max": 0.25,
+        "unit": "in",
+        "method": "cover_lightly"
+      },
+      "height": {
+        "min": 18,
+        "max": 24,
+        "unit": "in"
+      },
+      "botanical_lifecycle": "annual",
+      "cultivation_lifecycle": "annual",
+      "spacing": {
+        "plant": {
+          "min": 8,
+          "max": 12,
+          "unit": "in"
+        },
+        "row": {
+          "min": 12,
+          "max": 18,
+          "unit": "in"
+        }
+      },
+      "hydration": {
+        "target": {
+          "min": 0.6,
+          "max": 0.85
+        }
+      },
+      "hardiness": {
+        "min": 10,
+        "max": 11
+      },
+      "taxonomy": {
+        "genus": "Ocimum",
+        "species": "basilicum"
+      }
     }
   }
 }
