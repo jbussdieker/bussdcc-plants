@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.7.0](https://github.com/jbussdieker/bussdcc-plants/compare/v0.6.0...v0.7.0) (2026-06-07)
+
+
+### Features
+
+* **data, model:** add new plant varieties and qualifiers ([8ea639c](https://github.com/jbussdieker/bussdcc-plants/commit/8ea639ceacbd4f8e44e819fc9c873a6c86d05c49))
+
 ## [0.6.0](https://github.com/jbussdieker/bussdcc-plants/compare/v0.5.0...v0.6.0) (2026-05-29)
 
 
