@@ -1,5 +1,517 @@
 {
   "plants": {
+    "3c4e946a-d6ab-4db2-b9cd-7507cff4ec82": {
+      "name": {
+        "crop_name": "Borage",
+        "variety_name": "Common",
+        "qualifiers": ["organic", "heirloom", "non-gmo"],
+        "source_label": "Borage Herb Seeds"
+      },
+      "url": "https://trueleafmarket.com/products/borage-herb-seed",
+      "planting_depth": {
+        "min": 0.125,
+        "max": 0.5,
+        "unit": "in"
+      },
+      "height": {
+        "min": 12,
+        "max": 36,
+        "unit": "in"
+      },
+      "botanical_lifecycle": "annual",
+      "cultivation_lifecycle": "annual",
+      "spacing": {
+        "plant": {
+          "min": 12,
+          "max": 18,
+          "unit": "in"
+        },
+        "row": {
+          "min": 24,
+          "max": 24,
+          "unit": "in"
+        }
+      },
+      "hydration": {
+        "target": {
+          "min": 0.40,
+          "max": 0.65
+        }
+      },
+      "hardiness": {
+        "min": 2,
+        "max": 10
+      },
+      "taxonomy": {
+        "genus": "Borago",
+        "species": "officinalis"
+      }
+    },
+    "47593293-98b4-4793-87d4-bedae0e8d437": {
+      "name": {
+        "crop_name": "Cucumber",
+        "variety_name": "Soarer",
+        "qualifiers": ["hybrid", "non-gmo", "burpless", "japanese"],
+        "source_label": "Cucumber Seeds - Soarer - Hybrid"
+      },
+      "url": "https://trueleafmarket.com/products/cucumber-seeds-soarer-hybrid",
+      "planting_depth": {
+        "min": 0.5,
+        "max": 1.0,
+        "unit": "in"
+      },
+      "height": {
+        "min": 48,
+        "max": 96,
+        "unit": "in"
+      },
+      "botanical_lifecycle": "annual",
+      "cultivation_lifecycle": "annual",
+      "spacing": {
+        "plant": {
+          "min": 12,
+          "max": 18,
+          "unit": "in"
+        },
+        "row": {
+          "min": 36,
+          "max": 60,
+          "unit": "in"
+        }
+      },
+      "hydration": {
+        "target": {
+          "min": 0.60,
+          "max": 0.80
+        }
+      },
+      "hardiness": {
+        "min": 4,
+        "max": 12
+      },
+      "taxonomy": {
+        "genus": "Cucumis",
+        "species": "sativus"
+      }
+    },
+    "2184c1c2-0467-43d1-ba8f-c6dbf34d4da3": {
+      "name": {
+        "crop_name": "Fennel",
+        "variety_name": "Sweet",
+        "qualifiers": ["heirloom", "open-pollinated", "non-gmo"],
+        "source_label": "Fennel Seeds - Sweet"
+      },
+      "url": "https://trueleafmarket.com/products/fennel-seeds-sweet",
+      "planting_depth": {
+        "min": 0.25,
+        "max": 0.25,
+        "unit": "in"
+      },
+      "height": {
+        "min": 48,
+        "max": 72,
+        "unit": "in"
+      },
+      "botanical_lifecycle": "perennial",
+      "cultivation_lifecycle": "annual",
+      "spacing": {
+        "plant": {
+          "min": 12,
+          "max": 18,
+          "unit": "in"
+        },
+        "row": {
+          "min": 18,
+          "max": 36,
+          "unit": "in"
+        }
+      },
+      "hydration": {
+        "target": {
+          "min": 0.45,
+          "max": 0.65
+        }
+      },
+      "hardiness": {
+        "min": 4,
+        "max": 9
+      },
+      "taxonomy": {
+        "genus": "Foeniculum",
+        "species": "vulgare"
+      }
+    },
+    "432b15c3-60ef-43f4-b0bd-5ef355b85866": {
+      "name": {
+        "crop_name": "Fennel",
+        "variety_name": "Florence",
+        "qualifiers": ["organic", "heirloom", "open-pollinated", "non-gmo"],
+        "source_label": "Organic Florence Fennel Seeds"
+      },
+      "url": "https://trueleafmarket.com/products/certified-organic-heirloom-vegetable-seeds-organic-herb-seeds-organic-florence-fennel",
+      "planting_depth": {
+        "min": 0.25,
+        "max": 0.25,
+        "unit": "in"
+      },
+      "height": {
+        "min": 24,
+        "max": 36,
+        "unit": "in"
+      },
+      "botanical_lifecycle": "perennial",
+      "cultivation_lifecycle": "annual",
+      "spacing": {
+        "plant": {
+          "min": 10,
+          "max": 12,
+          "unit": "in"
+        },
+        "row": {
+          "min": 18,
+          "max": 24,
+          "unit": "in"
+        }
+      },
+      "hydration": {
+        "target": {
+          "min": 0.55,
+          "max": 0.75
+        }
+      },
+      "hardiness": {
+        "min": 4,
+        "max": 9
+      },
+      "taxonomy": {
+        "genus": "Foeniculum",
+        "species": "vulgare var. azoricum"
+      }
+    },
+    "fdb64371-2572-422a-aada-ab474e6c3ab4": {
+      "name": {
+        "crop_name": "Tarragon",
+        "variety_name": "Russian",
+        "qualifiers": ["heirloom", "non-gmo", "open-pollinated"],
+        "source_label": "Tarragon Seeds - Russian"
+      },
+      "url": "https://trueleafmarket.com/products/tarragon-russian-seeds",
+      "planting_depth": {
+        "min": 0.25,
+        "max": 0.25,
+        "unit": "in"
+      },
+      "height": {
+        "min": 24,
+        "max": 60,
+        "unit": "in"
+      },
+      "botanical_lifecycle": "perennial",
+      "cultivation_lifecycle": "perennial",
+      "spacing": {
+        "plant": {
+          "min": 18,
+          "max": 24,
+          "unit": "in"
+        },
+        "row": {
+          "min": 24,
+          "max": 36,
+          "unit": "in"
+        }
+      },
+      "hydration": {
+        "target": {
+          "min": 0.25,
+          "max": 0.50
+        }
+      },
+      "hardiness": {
+        "min": 4,
+        "max": 9
+      },
+      "taxonomy": {
+        "genus": "Artemisia",
+        "species": "dracunculoides"
+      }
+    },
+    "37bb25fc-81b8-4836-a6d7-358d16518525": {
+      "name": {
+        "crop_name": "Tarragon",
+        "variety_name": "Mexican",
+        "qualifiers": ["organic", "heirloom", "open-pollinated", "non-gmo"],
+        "source_label": "Tarragon Seeds - Mexican - Organic"
+      },
+      "url": "https://trueleafmarket.com/products/tarragon-seeds-mexican-organic",
+      "planting_depth": {
+        "min": 0.125,
+        "max": 0.25,
+        "unit": "in"
+      },
+      "height": {
+        "min": 18,
+        "max": 36,
+        "unit": "in"
+      },
+      "botanical_lifecycle": "perennial",
+      "cultivation_lifecycle": "annual",
+      "spacing": {
+        "plant": {
+          "min": 8,
+          "max": 12,
+          "unit": "in"
+        },
+        "row": {
+          "min": 18,
+          "max": 24,
+          "unit": "in"
+        }
+      },
+      "hydration": {
+        "target": {
+          "min": 0.30,
+          "max": 0.55
+        }
+      },
+      "hardiness": {
+        "min": 8,
+        "max": 11
+      },
+      "taxonomy": {
+        "genus": "Tagetes",
+        "species": "lucida"
+      }
+    },
+    "b8050863-f666-4b5f-b8b3-79c32611db26": {
+      "name": {
+        "crop_name": "Pepper",
+        "variety_name": "Alma Paprika",
+        "qualifiers": ["organic", "heirloom", "open-pollinated", "non-gmo"],
+        "source_label": "Organic Alma Paprika Pepper Seeds"
+      },
+      "url": "https://trueleafmarket.com/products/organic-alma-paprika-pepper-seeds",
+      "planting_depth": {
+        "min": 0.25,
+        "max": 0.25,
+        "unit": "in"
+      },
+      "height": {
+        "min": 18,
+        "max": 30,
+        "unit": "in"
+      },
+      "botanical_lifecycle": "annual",
+      "cultivation_lifecycle": "annual",
+      "spacing": {
+        "plant": {
+          "min": 12,
+          "max": 18,
+          "unit": "in"
+        },
+        "row": {
+          "min": 24,
+          "max": 36,
+          "unit": "in"
+        }
+      },
+      "hydration": {
+        "target": {
+          "min": 0.50,
+          "max": 0.75
+        }
+      },
+      "hardiness": {
+        "min": 9,
+        "max": 11
+      },
+      "taxonomy": {
+        "genus": "Capsicum",
+        "species": "annuum"
+      }
+    },
+    "e18c786e-6975-49d4-b760-a14f7bb25011": {
+      "name": {
+        "crop_name": "Savory",
+        "variety_name": "Summer",
+        "qualifiers": ["heirloom", "non-gmo"],
+        "source_label": "Summer Savory Seeds"
+      },
+      "url": "https://trueleafmarket.com/products/summer-savory-seeds",
+      "planting_depth": {
+        "min": 0.0625,
+        "max": 0.125,
+        "unit": "in"
+      },
+      "height": {
+        "min": 12,
+        "max": 18,
+        "unit": "in"
+      },
+      "botanical_lifecycle": "annual",
+      "cultivation_lifecycle": "annual",
+      "spacing": {
+        "plant": {
+          "min": 8,
+          "max": 12,
+          "unit": "in"
+        },
+        "row": {
+          "min": 12,
+          "max": 18,
+          "unit": "in"
+        }
+      },
+      "hydration": {
+        "target": {
+          "min": 0.35,
+          "max": 0.55
+        }
+      },
+      "hardiness": {
+        "min": 6,
+        "max": 9
+      },
+      "taxonomy": {
+        "genus": "Satureja",
+        "species": "hortensis"
+      }
+    },
+    "1bffa1e4-6a74-425e-9374-72cb911d6590": {
+      "name": {
+        "crop_name": "Bergamot",
+        "variety_name": "Wild",
+        "qualifiers": [],
+        "source_label": "Wild Bergamot Seeds - Bee Balm"
+      },
+      "url": "https://trueleafmarket.com/products/lemon-bergamot-seeds-monarda-fistulosa",
+      "planting_depth": {
+        "min": 0.125,
+        "max": 0.125,
+        "unit": "in"
+      },
+      "height": {
+        "min": 24,
+        "max": 48,
+        "unit": "in"
+      },
+      "botanical_lifecycle": "perennial",
+      "cultivation_lifecycle": "perennial",
+      "spacing": {
+        "plant": {
+          "min": 12,
+          "max": 18,
+          "unit": "in"
+        },
+        "row": {
+          "min": 18,
+          "max": 24,
+          "unit": "in"
+        }
+      },
+      "hydration": {
+        "target": {
+          "min": 0.40,
+          "max": 0.65
+        }
+      },
+      "hardiness": {
+        "min": 3,
+        "max": 9
+      },
+      "taxonomy": {
+        "genus": "Monarda",
+        "species": "fistulosa"
+      }
+    },
+    "419f7b93-5501-446d-b51f-d0cc8dc1038c": {
+      "name": {
+        "crop_name": "Basil",
+        "variety_name": "Lime",
+        "qualifiers": ["heirloom"],
+        "source_label": "Basil Seeds - Lime"
+      },
+      "url": "https://trueleafmarket.com/products/basil-lime",
+      "planting_depth": {
+        "min": 0.25,
+        "max": 0.25,
+        "unit": "in"
+      },
+      "height": {
+        "min": 12.0,
+        "max": 24.0,
+        "unit": "in"
+      },
+      "botanical_lifecycle": "annual",
+      "cultivation_lifecycle": "annual",
+      "spacing": {
+        "plant": {
+          "min": 12.0,
+          "max": 16.0,
+          "unit": "in"
+        }
+      },
+      "hydration": {
+        "target": {
+          "min": 0.65,
+          "max": 0.95
+        }
+      },
+      "hardiness": {
+        "min": 9,
+        "max": 11
+      },
+      "taxonomy": {
+        "genus": "Ocimum",
+        "species": "basilicum"
+      }
+    },
+    "d3101e25-5087-4216-a9b8-4f79b2a8631b": {
+      "name": {
+        "crop_name": "Alfalfa",
+        "variety_name": "Allstar",
+        "qualifiers": ["organic"],
+        "source_label": "Alfalfa Seeds - Allstar - Organic"
+      },
+      "url": "https://trueleafmarket.com/products/organic-allstar-alfalfa",
+      "planting_depth": {
+        "min": 0.25,
+        "max": 0.5,
+        "unit": "in"
+      },
+      "height": {
+        "min": 24,
+        "max": 36,
+        "unit": "in"
+      },
+      "botanical_lifecycle": "perennial",
+      "cultivation_lifecycle": "perennial",
+      "spacing": {
+        "plant": {
+          "min": 2,
+          "max": 4,
+          "unit": "in"
+        },
+        "row": {
+          "min": 12,
+          "max": 18,
+          "unit": "in"
+        }
+      },
+      "hydration": {
+        "target": {
+          "min": 0.40,
+          "max": 0.65
+        }
+      },
+      "hardiness": {
+        "min": 3,
+        "max": 9
+      },
+      "taxonomy": {
+        "genus": "Medicago",
+        "species": "sativa"
+      }
+    },
     "4f69f1a8-8153-4a79-a483-8b56746b79f6": {
       "name": {
         "crop_name": "Strawberry",

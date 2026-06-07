@@ -202,6 +202,10 @@ class PlantName:
             "heirloom",
             "cover-crop",
             "everbearing",
+            "non-gmo",
+            "burpless",
+            "japanese",
+            "open-pollinated",
         ],
         ...,
     ] = field(default_factory=tuple)
