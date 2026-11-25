@@ -6,6 +6,7 @@ from uuid import UUID
 
 Lifecycle = Literal["annual", "biennial", "perennial"]
 DistanceUnit = Literal["in"]
+TemperatureUnit = Literal["F"]
 PlantingMethod = Literal["press", "cover_lightly", "surface", "trench"]
 
 T = TypeVar("T")
@@ -233,6 +234,69 @@ class PlantName:
 
 
 @dataclass(slots=True, kw_only=True)
+class TemperatureRange:
+    min: float = config_field(
+        doc="Minimum preferred temperature.",
+        units="F",
+        examples=(55.0, 65.0, 70.0),
+    )
+    max: float = config_field(
+        doc="Maximum preferred temperature.",
+        units="F",
+        examples=(75.0, 80.0, 85.0),
+    )
+    unit: TemperatureUnit = config_field(
+        doc="Unit of measure for the temperature range.",
+        examples=("F",),
+    )
+
+
+@dataclass(slots=True, kw_only=True)
+class TemperatureTarget:
+    target: TemperatureRange = config_field(
+        doc="Preferred temperature range for active cultivation.",
+    )
+
+
+@dataclass(slots=True, kw_only=True)
+class TemperatureStages:
+    germination: TemperatureTarget | None = config_field(
+        doc="Preferred temperature during germination.",
+        nullable=True,
+        default=None,
+    )
+    vegetative: TemperatureTarget | None = config_field(
+        doc="Preferred temperature during vegetative growth.",
+        nullable=True,
+        default=None,
+    )
+    flowering: TemperatureTarget | None = config_field(
+        doc="Preferred temperature during flowering.",
+        nullable=True,
+        default=None,
+    )
+    fruiting: TemperatureTarget | None = config_field(
+        doc="Preferred temperature during fruiting.",
+        nullable=True,
+        default=None,
+    )
+
+
+@dataclass(slots=True, kw_only=True)
+class Temperature:
+    soil: TemperatureStages | None = config_field(
+        doc="Growing-medium temperature targets by growth stage.",
+        nullable=True,
+        default=None,
+    )
+    air: TemperatureStages | None = config_field(
+        doc="Ambient air temperature targets by growth stage.",
+        nullable=True,
+        default=None,
+    )
+
+
+@dataclass(slots=True, kw_only=True)
 class PlantSpec:
     name: PlantName = config_field(doc="Structured plant naming information.")
     url: str | None = config_field(
@@ -254,6 +318,11 @@ class PlantSpec:
         doc="Plant and optional row spacing recommendations."
     )
     hydration: Hydration = config_field(doc="Hydration targets for the plant.")
+    temperature: Temperature | None = config_field(
+        doc="Temperature targets for the plant by environment " "and growth stage.",
+        nullable=True,
+        default=None,
+    )
     hardiness: Hardiness = config_field(doc="USDA hardiness range.")
     taxonomy: Taxonomy = config_field(doc="Botanical taxonomy.")
 

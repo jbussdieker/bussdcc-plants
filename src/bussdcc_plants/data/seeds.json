@@ -4,7 +4,11 @@
       "name": {
         "crop_name": "Borage",
         "variety_name": "Common",
-        "qualifiers": ["organic", "heirloom", "non-gmo"],
+        "qualifiers": [
+          "organic",
+          "heirloom",
+          "non-gmo"
+        ],
         "source_label": "Borage Herb Seeds"
       },
       "url": "https://trueleafmarket.com/products/borage-herb-seed",
@@ -34,7 +38,7 @@
       },
       "hydration": {
         "target": {
-          "min": 0.40,
+          "min": 0.4,
           "max": 0.65
         }
       },
@@ -45,13 +49,80 @@
       "taxonomy": {
         "genus": "Borago",
         "species": "officinalis"
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          }
+        }
       }
     },
     "47593293-98b4-4793-87d4-bedae0e8d437": {
       "name": {
         "crop_name": "Cucumber",
         "variety_name": "Soarer",
-        "qualifiers": ["hybrid", "non-gmo", "burpless", "japanese"],
+        "qualifiers": [
+          "hybrid",
+          "non-gmo",
+          "burpless",
+          "japanese"
+        ],
         "source_label": "Cucumber Seeds - Soarer - Hybrid"
       },
       "url": "https://trueleafmarket.com/products/cucumber-seeds-soarer-hybrid",
@@ -81,8 +152,8 @@
       },
       "hydration": {
         "target": {
-          "min": 0.60,
-          "max": 0.80
+          "min": 0.6,
+          "max": 0.8
         }
       },
       "hardiness": {
@@ -92,13 +163,79 @@
       "taxonomy": {
         "genus": "Cucumis",
         "species": "sativus"
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 75,
+              "max": 90,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 70,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 70,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 70,
+              "max": 80,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 70,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 75,
+              "max": 85,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 75,
+              "max": 85,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 75,
+              "max": 85,
+              "unit": "F"
+            }
+          }
+        }
       }
     },
     "2184c1c2-0467-43d1-ba8f-c6dbf34d4da3": {
       "name": {
         "crop_name": "Fennel",
         "variety_name": "Sweet",
-        "qualifiers": ["heirloom", "open-pollinated", "non-gmo"],
+        "qualifiers": [
+          "heirloom",
+          "open-pollinated",
+          "non-gmo"
+        ],
         "source_label": "Fennel Seeds - Sweet"
       },
       "url": "https://trueleafmarket.com/products/fennel-seeds-sweet",
@@ -139,13 +276,80 @@
       "taxonomy": {
         "genus": "Foeniculum",
         "species": "vulgare"
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          }
+        }
       }
     },
     "432b15c3-60ef-43f4-b0bd-5ef355b85866": {
       "name": {
         "crop_name": "Fennel",
         "variety_name": "Florence",
-        "qualifiers": ["organic", "heirloom", "open-pollinated", "non-gmo"],
+        "qualifiers": [
+          "organic",
+          "heirloom",
+          "open-pollinated",
+          "non-gmo"
+        ],
         "source_label": "Organic Florence Fennel Seeds"
       },
       "url": "https://trueleafmarket.com/products/certified-organic-heirloom-vegetable-seeds-organic-herb-seeds-organic-florence-fennel",
@@ -186,13 +390,79 @@
       "taxonomy": {
         "genus": "Foeniculum",
         "species": "vulgare var. azoricum"
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          }
+        }
       }
     },
     "fdb64371-2572-422a-aada-ab474e6c3ab4": {
       "name": {
         "crop_name": "Tarragon",
         "variety_name": "Russian",
-        "qualifiers": ["heirloom", "non-gmo", "open-pollinated"],
+        "qualifiers": [
+          "heirloom",
+          "non-gmo",
+          "open-pollinated"
+        ],
         "source_label": "Tarragon Seeds - Russian"
       },
       "url": "https://trueleafmarket.com/products/tarragon-russian-seeds",
@@ -223,7 +493,7 @@
       "hydration": {
         "target": {
           "min": 0.25,
-          "max": 0.50
+          "max": 0.5
         }
       },
       "hardiness": {
@@ -233,13 +503,80 @@
       "taxonomy": {
         "genus": "Artemisia",
         "species": "dracunculoides"
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          }
+        }
       }
     },
     "37bb25fc-81b8-4836-a6d7-358d16518525": {
       "name": {
         "crop_name": "Tarragon",
         "variety_name": "Mexican",
-        "qualifiers": ["organic", "heirloom", "open-pollinated", "non-gmo"],
+        "qualifiers": [
+          "organic",
+          "heirloom",
+          "open-pollinated",
+          "non-gmo"
+        ],
         "source_label": "Tarragon Seeds - Mexican - Organic"
       },
       "url": "https://trueleafmarket.com/products/tarragon-seeds-mexican-organic",
@@ -269,7 +606,7 @@
       },
       "hydration": {
         "target": {
-          "min": 0.30,
+          "min": 0.3,
           "max": 0.55
         }
       },
@@ -280,13 +617,80 @@
       "taxonomy": {
         "genus": "Tagetes",
         "species": "lucida"
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 70,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 70,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 70,
+              "max": 85,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 70,
+              "max": 85,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 70,
+              "max": 85,
+              "unit": "F"
+            }
+          }
+        }
       }
     },
     "b8050863-f666-4b5f-b8b3-79c32611db26": {
       "name": {
         "crop_name": "Pepper",
         "variety_name": "Alma Paprika",
-        "qualifiers": ["organic", "heirloom", "open-pollinated", "non-gmo"],
+        "qualifiers": [
+          "organic",
+          "heirloom",
+          "open-pollinated",
+          "non-gmo"
+        ],
         "source_label": "Organic Alma Paprika Pepper Seeds"
       },
       "url": "https://trueleafmarket.com/products/organic-alma-paprika-pepper-seeds",
@@ -316,7 +720,7 @@
       },
       "hydration": {
         "target": {
-          "min": 0.50,
+          "min": 0.5,
           "max": 0.75
         }
       },
@@ -327,13 +731,78 @@
       "taxonomy": {
         "genus": "Capsicum",
         "species": "annuum"
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 75,
+              "max": 85,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 70,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 70,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 70,
+              "max": 80,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 70,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 70,
+              "max": 85,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 70,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 70,
+              "max": 85,
+              "unit": "F"
+            }
+          }
+        }
       }
     },
     "e18c786e-6975-49d4-b760-a14f7bb25011": {
       "name": {
         "crop_name": "Savory",
         "variety_name": "Summer",
-        "qualifiers": ["heirloom", "non-gmo"],
+        "qualifiers": [
+          "heirloom",
+          "non-gmo"
+        ],
         "source_label": "Summer Savory Seeds"
       },
       "url": "https://trueleafmarket.com/products/summer-savory-seeds",
@@ -374,6 +843,68 @@
       "taxonomy": {
         "genus": "Satureja",
         "species": "hortensis"
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          }
+        }
       }
     },
     "1bffa1e4-6a74-425e-9374-72cb911d6590": {
@@ -410,7 +941,7 @@
       },
       "hydration": {
         "target": {
-          "min": 0.40,
+          "min": 0.4,
           "max": 0.65
         }
       },
@@ -421,13 +952,77 @@
       "taxonomy": {
         "genus": "Monarda",
         "species": "fistulosa"
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          }
+        }
       }
     },
     "419f7b93-5501-446d-b51f-d0cc8dc1038c": {
       "name": {
         "crop_name": "Basil",
         "variety_name": "Lime",
-        "qualifiers": ["heirloom"],
+        "qualifiers": [
+          "heirloom"
+        ],
         "source_label": "Basil Seeds - Lime"
       },
       "url": "https://trueleafmarket.com/products/basil-lime",
@@ -463,13 +1058,77 @@
       "taxonomy": {
         "genus": "Ocimum",
         "species": "basilicum"
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 70,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 70,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 70,
+              "max": 85,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 70,
+              "max": 85,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 70,
+              "max": 85,
+              "unit": "F"
+            }
+          }
+        }
       }
     },
     "d3101e25-5087-4216-a9b8-4f79b2a8631b": {
       "name": {
         "crop_name": "Alfalfa",
         "variety_name": "Allstar",
-        "qualifiers": ["organic"],
+        "qualifiers": [
+          "organic"
+        ],
         "source_label": "Alfalfa Seeds - Allstar - Organic"
       },
       "url": "https://trueleafmarket.com/products/organic-allstar-alfalfa",
@@ -499,7 +1158,7 @@
       },
       "hydration": {
         "target": {
-          "min": 0.40,
+          "min": 0.4,
           "max": 0.65
         }
       },
@@ -510,6 +1169,68 @@
       "taxonomy": {
         "genus": "Medicago",
         "species": "sativa"
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 70,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 70,
+              "max": 85,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 70,
+              "max": 85,
+              "unit": "F"
+            }
+          }
+        }
       }
     },
     "4f69f1a8-8153-4a79-a483-8b56746b79f6": {
@@ -557,13 +1278,77 @@
       "taxonomy": {
         "genus": "Fragaria",
         "species": "× ananassa"
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          }
+        }
       }
     },
     "21df662a-273c-49d0-b838-7b1964e75cc8": {
       "name": {
         "crop_name": "Strawberry",
         "variety_name": "Albion",
-        "qualifiers": ["everbearing"],
+        "qualifiers": [
+          "everbearing"
+        ],
         "source_label": "Albion Strawberry Bare Roots"
       },
       "url": "https://www.burpee.com/strawberry-albion-prod000530.html",
@@ -604,6 +1389,68 @@
       "taxonomy": {
         "genus": "Fragaria",
         "species": "× ananassa"
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          }
+        }
       }
     },
     "09fe6990-06b3-42b1-b5e9-34a63bedeb9c": {
@@ -651,6 +1498,68 @@
       "taxonomy": {
         "genus": "Rubus",
         "species": "idaeus"
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          }
+        }
       }
     },
     "2416c76e-d186-4017-8329-95d714c5ebd2": {
@@ -698,6 +1607,68 @@
       "taxonomy": {
         "genus": "Hordeum",
         "species": "vulgare"
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 50,
+              "max": 65,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 55,
+              "max": 65,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 55,
+              "max": 65,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 55,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 55,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          }
+        }
       }
     },
     "c5e1cbd3-b9d7-4d12-a56e-f2e3763fc85c": {
@@ -746,6 +1717,68 @@
       "taxonomy": {
         "genus": "Nicotiana",
         "species": "tabacum"
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 70,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 70,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 70,
+              "max": 85,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 70,
+              "max": 85,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 70,
+              "max": 85,
+              "unit": "F"
+            }
+          }
+        }
       }
     },
     "a7f402af-915f-4e86-9f81-114938ca9d16": {
@@ -788,6 +1821,68 @@
       "taxonomy": {
         "genus": "Hyssopus",
         "species": "officinalis"
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          }
+        }
       }
     },
     "fae06b47-3ab3-4de5-81ec-93be48f5cf41": {
@@ -835,6 +1930,68 @@
       "taxonomy": {
         "genus": "Rumex",
         "species": "acetosa"
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 55,
+              "max": 65,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 55,
+              "max": 65,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 55,
+              "max": 65,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 55,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          }
+        }
       }
     },
     "ed3a55c1-7356-40e4-bf66-b86339383cf6": {
@@ -878,6 +2035,68 @@
       "taxonomy": {
         "genus": "Artemisia",
         "species": "vulgaris"
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          }
+        }
       }
     },
     "1a9dc38f-e964-4b4a-977b-a070cdb0aa7c": {
@@ -920,6 +2139,68 @@
       "taxonomy": {
         "genus": "Beta",
         "species": "vulgaris"
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 60,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          }
+        }
       }
     },
     "a380c6a7-6399-47ce-a329-4ea00bc4ce75": {
@@ -956,7 +2237,7 @@
       },
       "hydration": {
         "target": {
-          "min": 0.70,
+          "min": 0.7,
           "max": 0.95
         }
       },
@@ -967,6 +2248,68 @@
       "taxonomy": {
         "genus": "Mentha",
         "species": "spicata"
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          }
+        }
       }
     },
     "05069183-947d-4913-95ee-0a749edcda74": {
@@ -1014,6 +2357,68 @@
       "taxonomy": {
         "genus": "Valeriana",
         "species": "officinalis"
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 55,
+              "max": 65,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 55,
+              "max": 65,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 55,
+              "max": 65,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 55,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          }
+        }
       }
     },
     "335e6f8f-c9b7-4f82-bbf4-6e77071984a7": {
@@ -1061,6 +2466,68 @@
       "taxonomy": {
         "genus": "Althaea",
         "species": "officinalis"
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          }
+        }
       }
     },
     "645dfbd0-2beb-47ac-bdbc-81ea2257fa4c": {
@@ -1103,13 +2570,77 @@
       "taxonomy": {
         "genus": "Allium",
         "species": "schoenoprasum"
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          }
+        }
       }
     },
     "e45a503f-4847-4d13-9092-b228128a2640": {
       "name": {
         "crop_name": "Chives",
         "variety_name": "Garlic",
-        "qualifiers": ["organic"],
+        "qualifiers": [
+          "organic"
+        ],
         "source_label": "Garlic Chives (Organic)"
       },
       "url": "https://trueleafmarket.com/products/chives-garlic-organic",
@@ -1145,13 +2676,77 @@
       "taxonomy": {
         "genus": "Allium",
         "species": "tuberosum"
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          }
+        }
       }
     },
     "5fe78191-016e-4e23-a48a-fccc53431a02": {
       "name": {
         "crop_name": "Fenugreek",
         "variety_name": null,
-        "qualifiers": ["organic"],
+        "qualifiers": [
+          "organic"
+        ],
         "source_label": "Fenugreek (Organic)"
       },
       "url": "https://trueleafmarket.com/products/fenugreek-organic-herb-seeds",
@@ -1187,13 +2782,77 @@
       "taxonomy": {
         "genus": "Trigonella",
         "species": "foenum-graecum"
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          }
+        }
       }
     },
     "9477a7ca-b924-4fa1-b5e8-188ad1090f84": {
       "name": {
         "crop_name": "Marjoram",
         "variety_name": null,
-        "qualifiers": ["organic"],
+        "qualifiers": [
+          "organic"
+        ],
         "source_label": "Marjoram (Organic)"
       },
       "url": "https://trueleafmarket.com/products/marjoram-seeds-organic",
@@ -1234,6 +2893,68 @@
       "taxonomy": {
         "genus": "Origanum",
         "species": "majorana"
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          }
+        }
       }
     },
     "bab46bdb-17f6-45ab-8df5-2c97037a8e90": {
@@ -1276,6 +2997,68 @@
       "taxonomy": {
         "genus": "Ocimum",
         "species": "basilicum"
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 70,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 70,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 70,
+              "max": 85,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 70,
+              "max": 85,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 70,
+              "max": 85,
+              "unit": "F"
+            }
+          }
+        }
       }
     },
     "afd65d88-b969-46e0-93d8-09990df88817": {
@@ -1318,6 +3101,68 @@
       "taxonomy": {
         "genus": "Ocimum",
         "species": "basilicum"
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 70,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 70,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 70,
+              "max": 85,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 70,
+              "max": 85,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 70,
+              "max": 85,
+              "unit": "F"
+            }
+          }
+        }
       }
     },
     "489baa84-4d3b-4caa-8890-18b3eba6cf6b": {
@@ -1365,13 +3210,77 @@
       "taxonomy": {
         "genus": "Brassica",
         "species": "oleracea"
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 55,
+              "max": 65,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 55,
+              "max": 65,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 55,
+              "max": 65,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 55,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          }
+        }
       }
     },
     "30e11a0a-6246-494c-9038-17b480f8bcf5": {
       "name": {
         "crop_name": "Carrot",
         "variety_name": "Scarlet Nantes",
-        "qualifiers": ["organic"],
+        "qualifiers": [
+          "organic"
+        ],
         "source_label": "Carrot Seeds - Scarlet Nantes (Organic)"
       },
       "url": "https://trueleafmarket.com/products/carrot-scarlet-nantes-organic",
@@ -1412,13 +3321,77 @@
       "taxonomy": {
         "genus": "Daucus",
         "species": "carota"
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 55,
+              "max": 65,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 55,
+              "max": 65,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 55,
+              "max": 65,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          }
+        }
       }
     },
     "441060fc-f5d8-4926-9475-875ec4fb280d": {
       "name": {
         "crop_name": "Celery",
         "variety_name": "Utah 52-70",
-        "qualifiers": ["organic"],
+        "qualifiers": [
+          "organic"
+        ],
         "source_label": "Celery Seeds - Utah 52-70 Tall Improved - Organic"
       },
       "url": "https://trueleafmarket.com/products/organic-utah-52-70-tall-improved-celery-seeds",
@@ -1460,13 +3433,77 @@
       "taxonomy": {
         "genus": "Apium",
         "species": "graveolens"
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          }
+        }
       }
     },
     "d7543874-b1b1-44d0-9690-e9fa401ea25e": {
       "name": {
         "crop_name": "Chamomile",
         "variety_name": "German",
-        "qualifiers": ["organic"],
+        "qualifiers": [
+          "organic"
+        ],
         "source_label": "Chamomile Seeds - German (Organic)"
       },
       "url": "https://trueleafmarket.com/products/certified-organic-heirloom-vegetable-seeds-organic-herb-seeds-organic-chamomile-german",
@@ -1503,13 +3540,77 @@
       "taxonomy": {
         "genus": "Matricaria",
         "species": "chamomilla"
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 55,
+              "max": 65,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 55,
+              "max": 65,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 55,
+              "max": 65,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          }
+        }
       }
     },
     "aa2875bb-b504-4f8f-815f-47d1ed5b6dfd": {
       "name": {
         "crop_name": "Cilantro",
         "variety_name": "Slow Bolt",
-        "qualifiers": ["organic"],
+        "qualifiers": [
+          "organic"
+        ],
         "source_label": "Cilantro Seeds - Slow Bolt (Organic)"
       },
       "url": "https://trueleafmarket.com/products/cilantro-slow-bolt-organic",
@@ -1550,6 +3651,68 @@
       "taxonomy": {
         "genus": "Coriandrum",
         "species": "sativum"
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 55,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 55,
+              "max": 65,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 55,
+              "max": 65,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 55,
+              "max": 65,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 55,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 55,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          }
+        }
       }
     },
     "190df3b1-c8eb-4e09-9cfd-837de1cfa7f7": {
@@ -1598,6 +3761,68 @@
       "taxonomy": {
         "genus": "Cuminum",
         "species": "cyminum"
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 55,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 55,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 55,
+              "max": 70,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          }
+        }
       }
     },
     "b739f726-ddd7-4c91-b02d-89deca13f788": {
@@ -1645,13 +3870,77 @@
       "taxonomy": {
         "genus": "Anethum",
         "species": "graveolens"
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          }
+        }
       }
     },
     "de5d3a52-302e-4ddd-8922-584ccee6ac22": {
       "name": {
         "crop_name": "Eggplant",
         "variety_name": "Black Beauty",
-        "qualifiers": ["organic"],
+        "qualifiers": [
+          "organic"
+        ],
         "source_label": "Eggplant Seeds - Black Beauty - Organic"
       },
       "url": "https://trueleafmarket.com/products/organic-black-beauty-eggplant",
@@ -1692,6 +3981,68 @@
       "taxonomy": {
         "genus": "Solanum",
         "species": "melongena"
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 75,
+              "max": 90,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 70,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 70,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 70,
+              "max": 80,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 70,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 75,
+              "max": 85,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 75,
+              "max": 85,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 75,
+              "max": 85,
+              "unit": "F"
+            }
+          }
+        }
       }
     },
     "dbd78d0e-7a53-4ace-b169-de2cdbe69484": {
@@ -1739,6 +4090,68 @@
       "taxonomy": {
         "genus": "Allium",
         "species": "sativum"
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 50,
+              "max": 65,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 50,
+              "max": 65,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 55,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 55,
+              "max": 70,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 50,
+              "max": 65,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 55,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          }
+        }
       }
     },
     "7c8f4efa-84ea-4a4b-840b-fa2909b8e0a3": {
@@ -1782,13 +4195,77 @@
       "taxonomy": {
         "genus": "Lavandula",
         "species": "angustifolia"
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          }
+        }
       }
     },
     "04526f2a-edb0-4c1d-bf16-268be3020408": {
       "name": {
         "crop_name": "Lemon Balm",
         "variety_name": null,
-        "qualifiers": ["organic"],
+        "qualifiers": [
+          "organic"
+        ],
         "source_label": "Lemon Balm Seeds (Organic)"
       },
       "url": "https://trueleafmarket.com/products/lemon-balm-seeds-organic",
@@ -1825,6 +4302,68 @@
       "taxonomy": {
         "genus": "Melissa",
         "species": "officinalis"
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          }
+        }
       }
     },
     "7f0a5f5f-5e70-4c7d-8da4-6a9c8dbb3c12": {
@@ -1868,6 +4407,68 @@
       "taxonomy": {
         "genus": "Cymbopogon",
         "species": "citratus"
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 70,
+              "max": 85,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 70,
+              "max": 85,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 70,
+              "max": 85,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 70,
+              "max": 85,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 70,
+              "max": 85,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 75,
+              "max": 90,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 75,
+              "max": 90,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 75,
+              "max": 90,
+              "unit": "F"
+            }
+          }
+        }
       }
     },
     "c06ae43a-b3da-444c-8bb0-a2d9f55671e6": {
@@ -1910,13 +4511,77 @@
       "taxonomy": {
         "genus": "Mentha",
         "species": "pulegium"
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          }
+        }
       }
     },
     "54b08699-b082-44d1-a75a-32f7500d95df": {
       "name": {
         "crop_name": "Onion",
         "variety_name": "Yellow Granex",
-        "qualifiers": ["hybrid"],
+        "qualifiers": [
+          "hybrid"
+        ],
         "source_label": "Onion Seeds - Short - Yellow Granex PRR Hybrid"
       },
       "url": "https://trueleafmarket.com/products/onion-seeds-hybrid-yellow-granex-prr-f1",
@@ -1959,6 +4624,68 @@
       "taxonomy": {
         "genus": "Allium",
         "species": "cepa"
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          }
+        }
       }
     },
     "38d459a6-9fe7-45cc-90a3-dc28bdb41a76": {
@@ -2006,13 +4733,77 @@
       "taxonomy": {
         "genus": "Allium",
         "species": "cepa"
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          }
+        }
       }
     },
     "3599f8b2-832c-48ad-95bc-fa922f9e298e": {
       "name": {
         "crop_name": "Oregano",
         "variety_name": "Common Italian",
-        "qualifiers": ["organic"],
+        "qualifiers": [
+          "organic"
+        ],
         "source_label": "Oregano Seeds - Common Italian (Organic)"
       },
       "url": "https://trueleafmarket.com/products/oregano-common-italian-organic-seeds",
@@ -2048,6 +4839,68 @@
       "taxonomy": {
         "genus": "Origanum",
         "species": "vulgare"
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          }
+        }
       }
     },
     "21bae38c-f351-4dd6-b9bf-27fa85447c6b": {
@@ -2090,6 +4943,68 @@
       "taxonomy": {
         "genus": "Mentha",
         "species": "× piperita"
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          }
+        }
       }
     },
     "8e6827d1-8aa0-4cb8-8ee9-d3347dfd0d1d": {
@@ -2134,13 +5049,77 @@
       "taxonomy": {
         "genus": "Mentha",
         "species": "× piperita"
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          }
+        }
       }
     },
     "741c76bb-cc56-46c7-85fa-fdd23881c008": {
       "name": {
         "crop_name": "Parsley",
         "variety_name": "Giant Italian",
-        "qualifiers": ["organic"],
+        "qualifiers": [
+          "organic"
+        ],
         "source_label": "Parsley Seeds - Italian Giant (Organic)"
       },
       "url": "https://trueleafmarket.com/products/certified-organic-heirloom-vegetable-seeds-organic-herb-seeds-organic-giant-italian-parsley",
@@ -2181,6 +5160,68 @@
       "taxonomy": {
         "genus": "Petroselinum",
         "species": "crispum"
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          }
+        }
       }
     },
     "5668fd75-6282-4098-9d9f-d9463db25818": {
@@ -2228,6 +5269,68 @@
       "taxonomy": {
         "genus": "Capsicum",
         "species": "annuum"
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 75,
+              "max": 85,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 70,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 70,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 70,
+              "max": 80,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 70,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 70,
+              "max": 85,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 70,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 70,
+              "max": 85,
+              "unit": "F"
+            }
+          }
+        }
       }
     },
     "27ecf986-9d67-4b78-bd13-ded8ee602bb9": {
@@ -2275,6 +5378,68 @@
       "taxonomy": {
         "genus": "Capsicum",
         "species": "annuum"
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 75,
+              "max": 85,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 70,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 70,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 70,
+              "max": 80,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 70,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 70,
+              "max": 85,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 70,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 70,
+              "max": 85,
+              "unit": "F"
+            }
+          }
+        }
       }
     },
     "925c72b8-5737-47dd-a26a-1479681fbc30": {
@@ -2322,13 +5487,77 @@
       "taxonomy": {
         "genus": "Capsicum",
         "species": "annuum"
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 75,
+              "max": 85,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 70,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 70,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 70,
+              "max": 80,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 70,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 70,
+              "max": 85,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 70,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 70,
+              "max": 85,
+              "unit": "F"
+            }
+          }
+        }
       }
     },
     "b7b289ea-4064-4a83-b9bc-804d980e24d5": {
       "name": {
         "crop_name": "Potato",
         "variety_name": "Russet",
-        "qualifiers": ["organic"],
+        "qualifiers": [
+          "organic"
+        ],
         "source_label": "Seed Potatoes - Spring - Russet (Organic)"
       },
       "url": "https://trueleafmarket.com/products/seed-potatoes-russet",
@@ -2370,6 +5599,68 @@
       "taxonomy": {
         "genus": "Solanum",
         "species": "tuberosum"
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 50,
+              "max": 65,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 55,
+              "max": 65,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          }
+        }
       }
     },
     "bfa00f46-bd0a-4efd-994c-6ba07dc375c7": {
@@ -2417,6 +5708,68 @@
       "taxonomy": {
         "genus": "Cucurbita",
         "species": "pepo"
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 75,
+              "max": 90,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 70,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 70,
+              "max": 85,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 70,
+              "max": 85,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 70,
+              "max": 85,
+              "unit": "F"
+            }
+          }
+        }
       }
     },
     "756a915a-472d-420c-bc20-9534e4fd09c6": {
@@ -2460,6 +5813,68 @@
       "taxonomy": {
         "genus": "Salvia",
         "species": "rosmarinus"
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          }
+        }
       }
     },
     "b388f753-c801-42f9-b96d-398e84c93884": {
@@ -2502,13 +5917,77 @@
       "taxonomy": {
         "genus": "Salvia",
         "species": "officinalis"
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          }
+        }
       }
     },
     "cfefd930-fe8b-457f-ada8-dc0d50d4f1bd": {
       "name": {
         "crop_name": "Spinach",
         "variety_name": "Bloomsdale Long Standing",
-        "qualifiers": ["organic"],
+        "qualifiers": [
+          "organic"
+        ],
         "source_label": "Spinach Seeds - Bloomsdale Long Standing (Organic)"
       },
       "url": "https://trueleafmarket.com/products/spinach-bloomsdale-long-standing-organic-seeds",
@@ -2549,6 +6028,68 @@
       "taxonomy": {
         "genus": "Spinacia",
         "species": "oleracea"
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 50,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 45,
+              "max": 60,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 50,
+              "max": 65,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 50,
+              "max": 65,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 50,
+              "max": 65,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 50,
+              "max": 65,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          }
+        }
       }
     },
     "7897a4a6-2d41-415c-8f2b-a49a0d92bc7f": {
@@ -2591,13 +6132,78 @@
       "taxonomy": {
         "genus": "Stevia",
         "species": "rebaudiana"
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 70,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 70,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 70,
+              "max": 85,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          }
+        }
       }
     },
     "43ebf20b-8417-415b-90d6-a86b0c54eec6": {
       "name": {
         "crop_name": "Strawberry",
         "variety_name": "Seascape",
-        "qualifiers": ["hybrid", "everbearing"],
+        "qualifiers": [
+          "hybrid",
+          "everbearing"
+        ],
         "source_label": "Strawberry Roots - Everbearing - Seascape Hybrid"
       },
       "url": "https://trueleafmarket.com/products/strawberry-roots-everbearing-seascape-hybrid",
@@ -2638,6 +6244,68 @@
       "taxonomy": {
         "genus": "Fragaria",
         "species": "× ananassa"
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          }
+        }
       }
     },
     "beb82ac8-0a49-482e-b987-c726ad1e2fd5": {
@@ -2680,6 +6348,68 @@
       "taxonomy": {
         "genus": "Thymus",
         "species": "vulgaris"
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          }
+        }
       }
     },
     "d58d55b6-0a22-4589-9607-c8ca5365ed88": {
@@ -2728,13 +6458,77 @@
       "taxonomy": {
         "genus": "Nicotiana",
         "species": "tabacum"
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 70,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 70,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 70,
+              "max": 85,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 70,
+              "max": 85,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 70,
+              "max": 85,
+              "unit": "F"
+            }
+          }
+        }
       }
     },
     "2948ed60-1135-4396-aa3b-64abb3a06203": {
       "name": {
         "crop_name": "Watermelon",
         "variety_name": "Crimson Sweet",
-        "qualifiers": ["organic"],
+        "qualifiers": [
+          "organic"
+        ],
         "source_label": "Watermelon Seeds - Picnic - Crimson Sweet (Organic)"
       },
       "url": "https://trueleafmarket.com/products/watermelon-crimson-sweet-organic-seeds",
@@ -2775,13 +6569,78 @@
       "taxonomy": {
         "genus": "Citrullus",
         "species": "lanatus"
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 75,
+              "max": 95,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 70,
+              "max": 85,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 70,
+              "max": 85,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 70,
+              "max": 85,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 75,
+              "max": 85,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 75,
+              "max": 90,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 75,
+              "max": 90,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 75,
+              "max": 90,
+              "unit": "F"
+            }
+          }
+        }
       }
     },
     "b45bb859-c48b-4b4c-b2cb-bd3b1ac79f93": {
       "name": {
         "crop_name": "Wheat",
         "variety_name": "Hard Red Spring",
-        "qualifiers": ["organic", "cover-crop"],
+        "qualifiers": [
+          "organic",
+          "cover-crop"
+        ],
         "source_label": "Hard Red Spring Wheat - Organic - Cover Crop Seeds"
       },
       "url": "https://trueleafmarket.com/products/wheat-sprouting-hard-red-spring-organic-seeds",
@@ -2822,13 +6681,78 @@
       "taxonomy": {
         "genus": "Triticum",
         "species": "aestivum"
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 50,
+              "max": 65,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 55,
+              "max": 65,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 55,
+              "max": 65,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 55,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 55,
+              "max": 72,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          }
+        }
       }
     },
     "5e8f9344-bce6-423e-a994-fb791adcde0d": {
       "name": {
         "crop_name": "Wheat",
         "variety_name": "Hard Red Winter",
-        "qualifiers": ["organic", "cover-crop"],
+        "qualifiers": [
+          "organic",
+          "cover-crop"
+        ],
         "source_label": "Hard Red Winter Wheat - Organic - Cover Crop Seeds"
       },
       "url": "https://trueleafmarket.com/products/hard-red-wheat-winter-seed",
@@ -2869,6 +6793,68 @@
       "taxonomy": {
         "genus": "Triticum",
         "species": "aestivum"
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 50,
+              "max": 65,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 55,
+              "max": 65,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 55,
+              "max": 65,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 55,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 55,
+              "max": 72,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          }
+        }
       }
     },
     "9c352c16-de02-473e-b5c5-c0d6c944f4fd": {
@@ -2916,13 +6902,78 @@
       "taxonomy": {
         "genus": "Solanum",
         "species": "lycopersicum"
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 70,
+              "max": 85,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 70,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 70,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 70,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 70,
+              "max": 85,
+              "unit": "F"
+            }
+          }
+        }
       }
     },
     "6d7614c0-5c16-4f2d-a59d-4c7e5f6fd001": {
       "name": {
         "crop_name": "Oat",
         "variety_name": "Hulless",
-        "qualifiers": ["organic", "heirloom"],
+        "qualifiers": [
+          "organic",
+          "heirloom"
+        ],
         "source_label": "True Leaf Market"
       },
       "url": "https://trueleafmarket.com/products/heirloom-grain-seed-oat-seed-hulless-oats-hulless-oat",
@@ -2965,13 +7016,78 @@
       "taxonomy": {
         "genus": "Avena",
         "species": "sativa"
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 50,
+              "max": 65,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 55,
+              "max": 65,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 55,
+              "max": 65,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 55,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          }
+        }
       }
     },
     "ecfe847f-c7c6-4f4f-9186-42ef760ec002": {
       "name": {
         "crop_name": "Rye",
         "variety_name": "Winter",
-        "qualifiers": ["organic", "cover-crop"],
+        "qualifiers": [
+          "organic",
+          "cover-crop"
+        ],
         "source_label": "True Leaf Market"
       },
       "url": "https://trueleafmarket.com/products/rye-grain-seed-organic-1",
@@ -3013,13 +7129,77 @@
       "taxonomy": {
         "genus": "Secale",
         "species": "cereale"
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 55,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 45,
+              "max": 60,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 50,
+              "max": 65,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 50,
+              "max": 65,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 50,
+              "max": 65,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 50,
+              "max": 65,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 55,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 55,
+              "max": 70,
+              "unit": "F"
+            }
+          }
+        }
       }
     },
     "ba7f9c55-b0db-45bb-a3fd-c8439fbc3003": {
       "name": {
         "crop_name": "Clover",
         "variety_name": "Trio",
-        "qualifiers": ["cover-crop"],
+        "qualifiers": [
+          "cover-crop"
+        ],
         "source_label": "True Leaf Market"
       },
       "url": "https://trueleafmarket.com/products/clover-trio-cover-crop-seed-mix",
@@ -3062,13 +7242,77 @@
       "taxonomy": {
         "genus": "Trifolium",
         "species": "spp."
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 55,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 55,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 55,
+              "max": 70,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 60,
+              "max": 70,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 60,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 65,
+              "max": 75,
+              "unit": "F"
+            }
+          }
+        }
       }
     },
     "d1c29d90-ec0f-4f5f-87f6-8519fd760004": {
       "name": {
         "crop_name": "Corn",
         "variety_name": "Hopi Blue",
-        "qualifiers": ["heirloom"],
+        "qualifiers": [
+          "heirloom"
+        ],
         "source_label": "True Leaf Market"
       },
       "url": "https://trueleafmarket.com/products/corn-ornamental-blue-hopi",
@@ -3110,13 +7354,77 @@
       "taxonomy": {
         "genus": "Zea",
         "species": "mays"
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 65,
+              "max": 85,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 75,
+              "max": 90,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 75,
+              "max": 85,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 75,
+              "max": 85,
+              "unit": "F"
+            }
+          }
+        }
       }
     },
     "a1dcbf71-76dd-44f4-a28f-4b5f841a1005": {
       "name": {
         "crop_name": "Basil",
         "variety_name": "Thai",
-        "qualifiers": ["organic"],
+        "qualifiers": [
+          "organic"
+        ],
         "source_label": "True Leaf Market"
       },
       "url": "https://trueleafmarket.com/products/basil-seeds-thai-organic",
@@ -3158,6 +7466,68 @@
       "taxonomy": {
         "genus": "Ocimum",
         "species": "basilicum"
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 70,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 70,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 70,
+              "max": 85,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 70,
+              "max": 85,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 70,
+              "max": 85,
+              "unit": "F"
+            }
+          }
+        }
       }
     },
     "31e4a0c2-95b1-4dcf-a924-6c7c11d0b006": {
@@ -3205,13 +7575,77 @@
       "taxonomy": {
         "genus": "Ocimum",
         "species": "basilicum"
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 70,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 70,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 70,
+              "max": 85,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 70,
+              "max": 85,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 70,
+              "max": 85,
+              "unit": "F"
+            }
+          }
+        }
       }
     },
     "dcb72ef0-964f-43ef-9f8e-4b4d15b1a007": {
       "name": {
         "crop_name": "Basil",
         "variety_name": "Sweet",
-        "qualifiers": ["organic"],
+        "qualifiers": [
+          "organic"
+        ],
         "source_label": "True Leaf Market"
       },
       "url": "https://trueleafmarket.com/products/basil-seeds-sweet-organic",
@@ -3253,6 +7687,68 @@
       "taxonomy": {
         "genus": "Ocimum",
         "species": "basilicum"
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 70,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 70,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 70,
+              "max": 85,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 70,
+              "max": 85,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 70,
+              "max": 85,
+              "unit": "F"
+            }
+          }
+        }
       }
     },
     "0ec0a0c7-74a9-4700-b25c-7025db32c008": {
@@ -3300,13 +7796,77 @@
       "taxonomy": {
         "genus": "Ocimum",
         "species": "basilicum"
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 70,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 70,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 70,
+              "max": 85,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 70,
+              "max": 85,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 70,
+              "max": 85,
+              "unit": "F"
+            }
+          }
+        }
       }
     },
     "52dfbf83-5183-4701-a3f6-94d4e5df4009": {
       "name": {
         "crop_name": "Basil",
         "variety_name": "Red Rubin",
-        "qualifiers": ["organic"],
+        "qualifiers": [
+          "organic"
+        ],
         "source_label": "True Leaf Market"
       },
       "url": "https://trueleafmarket.com/products/basil-seeds-red-rubin-organic",
@@ -3348,13 +7908,77 @@
       "taxonomy": {
         "genus": "Ocimum",
         "species": "basilicum"
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 70,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 70,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 70,
+              "max": 85,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 70,
+              "max": 85,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 70,
+              "max": 85,
+              "unit": "F"
+            }
+          }
+        }
       }
     },
     "7f76d96c-fd91-4fd9-a09d-55f5a5a39010": {
       "name": {
         "crop_name": "Basil",
         "variety_name": "Sacred",
-        "qualifiers": ["organic"],
+        "qualifiers": [
+          "organic"
+        ],
         "source_label": "True Leaf Market"
       },
       "url": "https://trueleafmarket.com/products/organic-basil-sacred",
@@ -3397,13 +8021,77 @@
       "taxonomy": {
         "genus": "Ocimum",
         "species": "tenuiflorum"
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 70,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 70,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 70,
+              "max": 85,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 70,
+              "max": 85,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 70,
+              "max": 85,
+              "unit": "F"
+            }
+          }
+        }
       }
     },
     "ac7f02ff-fb47-4cf0-a6d9-30df4e4c5011": {
       "name": {
         "crop_name": "Basil",
         "variety_name": "Dark Opal",
-        "qualifiers": ["organic"],
+        "qualifiers": [
+          "organic"
+        ],
         "source_label": "True Leaf Market"
       },
       "url": "https://trueleafmarket.com/products/basil-seeds-purple-dark-opal-organic",
@@ -3445,6 +8133,68 @@
       "taxonomy": {
         "genus": "Ocimum",
         "species": "basilicum"
+      },
+      "temperature": {
+        "soil": {
+          "germination": {
+            "target": {
+              "min": 70,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 65,
+              "max": 80,
+              "unit": "F"
+            }
+          }
+        },
+        "air": {
+          "germination": {
+            "target": {
+              "min": 70,
+              "max": 80,
+              "unit": "F"
+            }
+          },
+          "vegetative": {
+            "target": {
+              "min": 70,
+              "max": 85,
+              "unit": "F"
+            }
+          },
+          "flowering": {
+            "target": {
+              "min": 70,
+              "max": 85,
+              "unit": "F"
+            }
+          },
+          "fruiting": {
+            "target": {
+              "min": 70,
+              "max": 85,
+              "unit": "F"
+            }
+          }
+        }
       }
     }
   }
