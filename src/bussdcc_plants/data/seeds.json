@@ -37,9 +37,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.4,
-          "max": 0.65
+        "germination": {
+          "target": {
+            "min": 0.7,
+            "max": 0.85
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.4,
+            "max": 0.65
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.45,
+            "max": 0.7
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.45,
+            "max": 0.7
+          }
         }
       },
       "hardiness": {
@@ -151,9 +171,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.6,
-          "max": 0.8
+        "germination": {
+          "target": {
+            "min": 0.8,
+            "max": 0.9
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.6,
+            "max": 0.8
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.7,
+            "max": 0.9
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.7,
+            "max": 0.95
+          }
         }
       },
       "hardiness": {
@@ -264,9 +304,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.45,
-          "max": 0.65
+        "germination": {
+          "target": {
+            "min": 0.7,
+            "max": 0.85
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.45,
+            "max": 0.65
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.5,
+            "max": 0.75
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.5,
+            "max": 0.7
+          }
         }
       },
       "hardiness": {
@@ -378,9 +438,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.55,
-          "max": 0.75
+        "germination": {
+          "target": {
+            "min": 0.75,
+            "max": 0.9
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.55,
+            "max": 0.75
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.6,
+            "max": 0.8
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.6,
+            "max": 0.8
+          }
         }
       },
       "hardiness": {
@@ -491,9 +571,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.25,
-          "max": 0.5
+        "germination": {
+          "target": {
+            "min": 0.65,
+            "max": 0.8
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.25,
+            "max": 0.5
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.35,
+            "max": 0.6
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.35,
+            "max": 0.55
+          }
         }
       },
       "hardiness": {
@@ -605,9 +705,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.3,
-          "max": 0.55
+        "germination": {
+          "target": {
+            "min": 0.7,
+            "max": 0.85
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.3,
+            "max": 0.55
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.4,
+            "max": 0.65
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.4,
+            "max": 0.6
+          }
         }
       },
       "hardiness": {
@@ -719,9 +839,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.5,
-          "max": 0.75
+        "germination": {
+          "target": {
+            "min": 0.75,
+            "max": 0.85
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.5,
+            "max": 0.75
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.65,
+            "max": 0.85
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.65,
+            "max": 0.85
+          }
         }
       },
       "hardiness": {
@@ -831,9 +971,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.35,
-          "max": 0.55
+        "germination": {
+          "target": {
+            "min": 0.7,
+            "max": 0.85
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.35,
+            "max": 0.55
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.4,
+            "max": 0.65
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.4,
+            "max": 0.6
+          }
         }
       },
       "hardiness": {
@@ -940,9 +1100,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.4,
-          "max": 0.65
+        "germination": {
+          "target": {
+            "min": 0.75,
+            "max": 0.9
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.4,
+            "max": 0.65
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.5,
+            "max": 0.75
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.5,
+            "max": 0.7
+          }
         }
       },
       "hardiness": {
@@ -1046,9 +1226,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.65,
-          "max": 0.95
+        "germination": {
+          "target": {
+            "min": 0.8,
+            "max": 0.95
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.65,
+            "max": 0.95
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.7,
+            "max": 0.95
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.7,
+            "max": 0.95
+          }
         }
       },
       "hardiness": {
@@ -1157,9 +1357,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.4,
-          "max": 0.65
+        "germination": {
+          "target": {
+            "min": 0.7,
+            "max": 0.85
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.4,
+            "max": 0.65
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.55,
+            "max": 0.8
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.5,
+            "max": 0.75
+          }
         }
       },
       "hardiness": {
@@ -1266,9 +1486,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.65,
-          "max": 0.9
+        "germination": {
+          "target": {
+            "min": 0.8,
+            "max": 0.95
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.65,
+            "max": 0.9
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.75,
+            "max": 0.95
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.75,
+            "max": 0.95
+          }
         }
       },
       "hardiness": {
@@ -1377,9 +1617,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.65,
-          "max": 0.9
+        "germination": {
+          "target": {
+            "min": 0.8,
+            "max": 0.95
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.65,
+            "max": 0.9
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.75,
+            "max": 0.95
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.75,
+            "max": 0.95
+          }
         }
       },
       "hardiness": {
@@ -1486,9 +1746,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.6,
-          "max": 0.85
+        "germination": {
+          "target": {
+            "min": 0.75,
+            "max": 0.9
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.6,
+            "max": 0.85
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.7,
+            "max": 0.9
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.75,
+            "max": 0.95
+          }
         }
       },
       "hardiness": {
@@ -1595,9 +1875,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.45,
-          "max": 0.75
+        "germination": {
+          "target": {
+            "min": 0.7,
+            "max": 0.85
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.45,
+            "max": 0.75
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.6,
+            "max": 0.85
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.6,
+            "max": 0.85
+          }
         }
       },
       "hardiness": {
@@ -1705,9 +2005,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.6,
-          "max": 0.9
+        "germination": {
+          "target": {
+            "min": 0.8,
+            "max": 0.95
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.6,
+            "max": 0.9
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.65,
+            "max": 0.9
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.6,
+            "max": 0.85
+          }
         }
       },
       "hardiness": {
@@ -1809,9 +2129,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.35,
-          "max": 0.7
+        "germination": {
+          "target": {
+            "min": 0.7,
+            "max": 0.85
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.35,
+            "max": 0.7
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.45,
+            "max": 0.75
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.45,
+            "max": 0.7
+          }
         }
       },
       "hardiness": {
@@ -1918,9 +2258,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.65,
-          "max": 0.95
+        "germination": {
+          "target": {
+            "min": 0.8,
+            "max": 0.95
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.65,
+            "max": 0.95
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.7,
+            "max": 0.95
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.7,
+            "max": 0.9
+          }
         }
       },
       "hardiness": {
@@ -2023,9 +2383,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.4,
-          "max": 0.75
+        "germination": {
+          "target": {
+            "min": 0.7,
+            "max": 0.85
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.4,
+            "max": 0.75
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.5,
+            "max": 0.8
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.45,
+            "max": 0.75
+          }
         }
       },
       "hardiness": {
@@ -2127,9 +2507,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.6,
-          "max": 0.85
+        "germination": {
+          "target": {
+            "min": 0.75,
+            "max": 0.9
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.6,
+            "max": 0.85
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.65,
+            "max": 0.9
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.65,
+            "max": 0.85
+          }
         }
       },
       "hardiness": {
@@ -2236,9 +2636,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.7,
-          "max": 0.95
+        "germination": {
+          "target": {
+            "min": 0.85,
+            "max": 0.95
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.7,
+            "max": 0.95
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.75,
+            "max": 0.95
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.7,
+            "max": 0.95
+          }
         }
       },
       "hardiness": {
@@ -2345,9 +2765,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.6,
-          "max": 0.85
+        "germination": {
+          "target": {
+            "min": 0.8,
+            "max": 0.95
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.6,
+            "max": 0.85
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.7,
+            "max": 0.9
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.65,
+            "max": 0.9
+          }
         }
       },
       "hardiness": {
@@ -2454,9 +2894,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.7,
-          "max": 0.95
+        "germination": {
+          "target": {
+            "min": 0.8,
+            "max": 0.95
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.7,
+            "max": 0.95
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.75,
+            "max": 0.95
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.75,
+            "max": 0.95
+          }
         }
       },
       "hardiness": {
@@ -2558,9 +3018,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.6,
-          "max": 0.85
+        "germination": {
+          "target": {
+            "min": 0.75,
+            "max": 0.9
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.6,
+            "max": 0.85
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.65,
+            "max": 0.9
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.65,
+            "max": 0.85
+          }
         }
       },
       "hardiness": {
@@ -2664,9 +3144,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.6,
-          "max": 0.85
+        "germination": {
+          "target": {
+            "min": 0.75,
+            "max": 0.9
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.6,
+            "max": 0.85
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.65,
+            "max": 0.9
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.65,
+            "max": 0.85
+          }
         }
       },
       "hardiness": {
@@ -2770,9 +3270,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.5,
-          "max": 0.75
+        "germination": {
+          "target": {
+            "min": 0.7,
+            "max": 0.85
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.5,
+            "max": 0.75
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.6,
+            "max": 0.85
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.6,
+            "max": 0.85
+          }
         }
       },
       "hardiness": {
@@ -2881,9 +3401,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.35,
-          "max": 0.7
+        "germination": {
+          "target": {
+            "min": 0.7,
+            "max": 0.85
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.35,
+            "max": 0.7
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.45,
+            "max": 0.75
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.45,
+            "max": 0.7
+          }
         }
       },
       "hardiness": {
@@ -2985,9 +3525,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.65,
-          "max": 0.95
+        "germination": {
+          "target": {
+            "min": 0.8,
+            "max": 0.95
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.65,
+            "max": 0.95
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.7,
+            "max": 0.95
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.7,
+            "max": 0.95
+          }
         }
       },
       "hardiness": {
@@ -3089,9 +3649,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.65,
-          "max": 0.95
+        "germination": {
+          "target": {
+            "min": 0.8,
+            "max": 0.95
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.65,
+            "max": 0.95
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.7,
+            "max": 0.95
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.7,
+            "max": 0.95
+          }
         }
       },
       "hardiness": {
@@ -3198,9 +3778,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.7,
-          "max": 0.95
+        "germination": {
+          "target": {
+            "min": 0.85,
+            "max": 0.95
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.7,
+            "max": 0.95
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.75,
+            "max": 0.95
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.75,
+            "max": 0.95
+          }
         }
       },
       "hardiness": {
@@ -3309,9 +3909,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.6,
-          "max": 0.85
+        "germination": {
+          "target": {
+            "min": 0.8,
+            "max": 0.95
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.6,
+            "max": 0.85
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.65,
+            "max": 0.9
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.65,
+            "max": 0.9
+          }
         }
       },
       "hardiness": {
@@ -3421,9 +4041,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.8,
-          "max": 0.98
+        "germination": {
+          "target": {
+            "min": 0.88,
+            "max": 0.98
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.8,
+            "max": 0.98
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.8,
+            "max": 0.98
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.8,
+            "max": 0.95
+          }
         }
       },
       "hardiness": {
@@ -3528,9 +4168,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.5,
-          "max": 0.85
+        "germination": {
+          "target": {
+            "min": 0.75,
+            "max": 0.9
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.5,
+            "max": 0.85
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.55,
+            "max": 0.85
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.5,
+            "max": 0.8
+          }
         }
       },
       "hardiness": {
@@ -3639,9 +4299,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.65,
-          "max": 0.95
+        "germination": {
+          "target": {
+            "min": 0.8,
+            "max": 0.95
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.65,
+            "max": 0.95
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.7,
+            "max": 0.95
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.65,
+            "max": 0.9
+          }
         }
       },
       "hardiness": {
@@ -3749,9 +4429,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.5,
-          "max": 0.75
+        "germination": {
+          "target": {
+            "min": 0.7,
+            "max": 0.85
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.5,
+            "max": 0.75
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.6,
+            "max": 0.85
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.55,
+            "max": 0.8
+          }
         }
       },
       "hardiness": {
@@ -3858,9 +4558,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.5,
-          "max": 0.85
+        "germination": {
+          "target": {
+            "min": 0.75,
+            "max": 0.9
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.5,
+            "max": 0.85
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.6,
+            "max": 0.9
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.55,
+            "max": 0.85
+          }
         }
       },
       "hardiness": {
@@ -3969,9 +4689,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.65,
-          "max": 0.9
+        "germination": {
+          "target": {
+            "min": 0.75,
+            "max": 0.9
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.65,
+            "max": 0.9
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.7,
+            "max": 0.9
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.75,
+            "max": 0.95
+          }
         }
       },
       "hardiness": {
@@ -4078,9 +4818,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.45,
-          "max": 0.75
+        "germination": {
+          "target": {
+            "min": 0.55,
+            "max": 0.75
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.45,
+            "max": 0.75
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.55,
+            "max": 0.8
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.5,
+            "max": 0.75
+          }
         }
       },
       "hardiness": {
@@ -4183,9 +4943,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.3,
-          "max": 0.7
+        "germination": {
+          "target": {
+            "min": 0.65,
+            "max": 0.8
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.3,
+            "max": 0.7
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.35,
+            "max": 0.7
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.35,
+            "max": 0.65
+          }
         }
       },
       "hardiness": {
@@ -4290,9 +5070,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.55,
-          "max": 0.85
+        "germination": {
+          "target": {
+            "min": 0.75,
+            "max": 0.9
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.55,
+            "max": 0.85
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.6,
+            "max": 0.9
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.6,
+            "max": 0.85
+          }
         }
       },
       "hardiness": {
@@ -4395,9 +5195,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.7,
-          "max": 0.95
+        "germination": {
+          "target": {
+            "min": 0.8,
+            "max": 0.95
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.7,
+            "max": 0.95
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.75,
+            "max": 0.95
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.75,
+            "max": 0.95
+          }
         }
       },
       "hardiness": {
@@ -4499,9 +5319,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.7,
-          "max": 0.95
+        "germination": {
+          "target": {
+            "min": 0.8,
+            "max": 0.95
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.7,
+            "max": 0.95
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.75,
+            "max": 0.95
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.7,
+            "max": 0.95
+          }
         }
       },
       "hardiness": {
@@ -4612,9 +5452,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.5,
-          "max": 0.8
+        "germination": {
+          "target": {
+            "min": 0.75,
+            "max": 0.9
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.5,
+            "max": 0.8
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.6,
+            "max": 0.85
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.6,
+            "max": 0.85
+          }
         }
       },
       "hardiness": {
@@ -4721,9 +5581,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.55,
-          "max": 0.8
+        "germination": {
+          "target": {
+            "min": 0.75,
+            "max": 0.9
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.55,
+            "max": 0.8
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.6,
+            "max": 0.85
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.6,
+            "max": 0.85
+          }
         }
       },
       "hardiness": {
@@ -4827,9 +5707,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.35,
-          "max": 0.7
+        "germination": {
+          "target": {
+            "min": 0.7,
+            "max": 0.85
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.35,
+            "max": 0.7
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.45,
+            "max": 0.75
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.45,
+            "max": 0.7
+          }
         }
       },
       "hardiness": {
@@ -4931,9 +5831,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.7,
-          "max": 0.95
+        "germination": {
+          "target": {
+            "min": 0.8,
+            "max": 0.95
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.7,
+            "max": 0.95
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.75,
+            "max": 0.95
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.7,
+            "max": 0.95
+          }
         }
       },
       "hardiness": {
@@ -5037,9 +5957,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.7,
-          "max": 0.95
+        "germination": {
+          "target": {
+            "min": 0.8,
+            "max": 0.95
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.7,
+            "max": 0.95
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.75,
+            "max": 0.95
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.7,
+            "max": 0.95
+          }
         }
       },
       "hardiness": {
@@ -5148,9 +6088,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.55,
-          "max": 0.85
+        "germination": {
+          "target": {
+            "min": 0.8,
+            "max": 0.95
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.55,
+            "max": 0.85
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.65,
+            "max": 0.9
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.65,
+            "max": 0.85
+          }
         }
       },
       "hardiness": {
@@ -5257,9 +6217,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.65,
-          "max": 0.85
+        "germination": {
+          "target": {
+            "min": 0.75,
+            "max": 0.9
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.65,
+            "max": 0.85
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.7,
+            "max": 0.9
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.7,
+            "max": 0.9
+          }
         }
       },
       "hardiness": {
@@ -5366,9 +6346,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.65,
-          "max": 0.85
+        "germination": {
+          "target": {
+            "min": 0.75,
+            "max": 0.9
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.65,
+            "max": 0.85
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.7,
+            "max": 0.9
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.7,
+            "max": 0.9
+          }
         }
       },
       "hardiness": {
@@ -5475,9 +6475,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.65,
-          "max": 0.85
+        "germination": {
+          "target": {
+            "min": 0.75,
+            "max": 0.9
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.65,
+            "max": 0.85
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.7,
+            "max": 0.9
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.7,
+            "max": 0.9
+          }
         }
       },
       "hardiness": {
@@ -5587,9 +6607,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.65,
-          "max": 0.9
+        "germination": {
+          "target": {
+            "min": 0.55,
+            "max": 0.75
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.65,
+            "max": 0.9
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.7,
+            "max": 0.9
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.75,
+            "max": 0.95
+          }
         }
       },
       "hardiness": {
@@ -5696,9 +6736,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.65,
-          "max": 0.9
+        "germination": {
+          "target": {
+            "min": 0.75,
+            "max": 0.9
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.65,
+            "max": 0.9
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.7,
+            "max": 0.9
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.75,
+            "max": 0.95
+          }
         }
       },
       "hardiness": {
@@ -5801,9 +6861,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.3,
-          "max": 0.7
+        "germination": {
+          "target": {
+            "min": 0.65,
+            "max": 0.8
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.3,
+            "max": 0.7
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.4,
+            "max": 0.7
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.35,
+            "max": 0.65
+          }
         }
       },
       "hardiness": {
@@ -5905,9 +6985,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.35,
-          "max": 0.7
+        "germination": {
+          "target": {
+            "min": 0.7,
+            "max": 0.85
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.35,
+            "max": 0.7
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.45,
+            "max": 0.75
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.45,
+            "max": 0.7
+          }
         }
       },
       "hardiness": {
@@ -6016,9 +7116,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.65,
-          "max": 0.9
+        "germination": {
+          "target": {
+            "min": 0.8,
+            "max": 0.95
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.65,
+            "max": 0.9
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.7,
+            "max": 0.95
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.65,
+            "max": 0.9
+          }
         }
       },
       "hardiness": {
@@ -6120,9 +7240,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.55,
-          "max": 0.85
+        "germination": {
+          "target": {
+            "min": 0.8,
+            "max": 0.95
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.55,
+            "max": 0.85
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.65,
+            "max": 0.9
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.6,
+            "max": 0.85
+          }
         }
       },
       "hardiness": {
@@ -6232,9 +7372,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.65,
-          "max": 0.9
+        "germination": {
+          "target": {
+            "min": 0.8,
+            "max": 0.95
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.65,
+            "max": 0.9
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.75,
+            "max": 0.95
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.75,
+            "max": 0.95
+          }
         }
       },
       "hardiness": {
@@ -6336,9 +7496,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.25,
-          "max": 0.7
+        "germination": {
+          "target": {
+            "min": 0.65,
+            "max": 0.8
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.25,
+            "max": 0.7
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.35,
+            "max": 0.7
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.35,
+            "max": 0.65
+          }
         }
       },
       "hardiness": {
@@ -6446,9 +7626,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.6,
-          "max": 0.9
+        "germination": {
+          "target": {
+            "min": 0.8,
+            "max": 0.95
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.6,
+            "max": 0.9
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.65,
+            "max": 0.9
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.6,
+            "max": 0.85
+          }
         }
       },
       "hardiness": {
@@ -6557,9 +7757,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.65,
-          "max": 0.9
+        "germination": {
+          "target": {
+            "min": 0.75,
+            "max": 0.9
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.65,
+            "max": 0.9
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.7,
+            "max": 0.9
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.7,
+            "max": 0.9
+          }
         }
       },
       "hardiness": {
@@ -6669,9 +7889,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.45,
-          "max": 0.75
+        "germination": {
+          "target": {
+            "min": 0.7,
+            "max": 0.85
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.45,
+            "max": 0.75
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.6,
+            "max": 0.85
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.6,
+            "max": 0.85
+          }
         }
       },
       "hardiness": {
@@ -6781,9 +8021,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.45,
-          "max": 0.75
+        "germination": {
+          "target": {
+            "min": 0.7,
+            "max": 0.85
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.45,
+            "max": 0.75
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.6,
+            "max": 0.85
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.6,
+            "max": 0.85
+          }
         }
       },
       "hardiness": {
@@ -6890,9 +8150,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.55,
-          "max": 0.85
+        "germination": {
+          "target": {
+            "min": 0.75,
+            "max": 0.9
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.55,
+            "max": 0.85
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.7,
+            "max": 0.9
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.7,
+            "max": 0.9
+          }
         }
       },
       "hardiness": {
@@ -7004,9 +8284,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.55,
-          "max": 0.8
+        "germination": {
+          "target": {
+            "min": 0.7,
+            "max": 0.85
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.55,
+            "max": 0.8
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.65,
+            "max": 0.9
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.65,
+            "max": 0.85
+          }
         }
       },
       "hardiness": {
@@ -7117,9 +8417,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.45,
-          "max": 0.75
+        "germination": {
+          "target": {
+            "min": 0.7,
+            "max": 0.85
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.45,
+            "max": 0.75
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.6,
+            "max": 0.85
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.6,
+            "max": 0.85
+          }
         }
       },
       "hardiness": {
@@ -7230,9 +8550,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.5,
-          "max": 0.8
+        "germination": {
+          "target": {
+            "min": 0.75,
+            "max": 0.9
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.5,
+            "max": 0.8
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.6,
+            "max": 0.85
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.6,
+            "max": 0.85
+          }
         }
       },
       "hardiness": {
@@ -7342,9 +8682,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.6,
-          "max": 0.85
+        "germination": {
+          "target": {
+            "min": 0.75,
+            "max": 0.9
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.6,
+            "max": 0.85
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.75,
+            "max": 0.95
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.7,
+            "max": 0.9
+          }
         }
       },
       "hardiness": {
@@ -7454,9 +8814,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.6,
-          "max": 0.85
+        "germination": {
+          "target": {
+            "min": 0.8,
+            "max": 0.9
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.6,
+            "max": 0.85
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.65,
+            "max": 0.9
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.65,
+            "max": 0.9
+          }
         }
       },
       "hardiness": {
@@ -7563,9 +8943,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.6,
-          "max": 0.85
+        "germination": {
+          "target": {
+            "min": 0.8,
+            "max": 0.9
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.6,
+            "max": 0.85
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.65,
+            "max": 0.9
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.65,
+            "max": 0.9
+          }
         }
       },
       "hardiness": {
@@ -7675,9 +9075,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.6,
-          "max": 0.85
+        "germination": {
+          "target": {
+            "min": 0.8,
+            "max": 0.9
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.6,
+            "max": 0.85
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.65,
+            "max": 0.9
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.65,
+            "max": 0.9
+          }
         }
       },
       "hardiness": {
@@ -7784,9 +9204,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.6,
-          "max": 0.85
+        "germination": {
+          "target": {
+            "min": 0.8,
+            "max": 0.9
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.6,
+            "max": 0.85
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.65,
+            "max": 0.9
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.65,
+            "max": 0.9
+          }
         }
       },
       "hardiness": {
@@ -7896,9 +9336,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.6,
-          "max": 0.85
+        "germination": {
+          "target": {
+            "min": 0.8,
+            "max": 0.9
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.6,
+            "max": 0.85
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.65,
+            "max": 0.9
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.65,
+            "max": 0.9
+          }
         }
       },
       "hardiness": {
@@ -8009,9 +9469,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.6,
-          "max": 0.85
+        "germination": {
+          "target": {
+            "min": 0.8,
+            "max": 0.9
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.6,
+            "max": 0.85
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.65,
+            "max": 0.9
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.65,
+            "max": 0.9
+          }
         }
       },
       "hardiness": {
@@ -8121,9 +9601,29 @@
         }
       },
       "hydration": {
-        "target": {
-          "min": 0.6,
-          "max": 0.85
+        "germination": {
+          "target": {
+            "min": 0.8,
+            "max": 0.9
+          }
+        },
+        "vegetative": {
+          "target": {
+            "min": 0.6,
+            "max": 0.85
+          }
+        },
+        "flowering": {
+          "target": {
+            "min": 0.65,
+            "max": 0.9
+          }
+        },
+        "fruiting": {
+          "target": {
+            "min": 0.65,
+            "max": 0.9
+          }
         }
       },
       "hardiness": {

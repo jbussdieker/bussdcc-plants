@@ -147,10 +147,34 @@ class Spacing:
 
 
 @dataclass(slots=True, kw_only=True)
-class Hydration:
+class HydrationTarget:
     target: Range = config_field(
-        doc="Target hydration range expressed as fraction of field capacity.",
+        doc="Target hydration range expressed as fraction " "of field capacity.",
         examples=((0.55, 0.85),),
+    )
+
+
+@dataclass(slots=True, kw_only=True)
+class Hydration:
+    germination: HydrationTarget | None = config_field(
+        doc="Preferred hydration during germination.",
+        nullable=True,
+        default=None,
+    )
+    vegetative: HydrationTarget | None = config_field(
+        doc="Preferred hydration during vegetative growth.",
+        nullable=True,
+        default=None,
+    )
+    flowering: HydrationTarget | None = config_field(
+        doc="Preferred hydration during flowering.",
+        nullable=True,
+        default=None,
+    )
+    fruiting: HydrationTarget | None = config_field(
+        doc="Preferred hydration during fruiting.",
+        nullable=True,
+        default=None,
     )
 
 

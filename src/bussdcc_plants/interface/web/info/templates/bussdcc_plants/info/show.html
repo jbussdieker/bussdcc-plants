@@ -91,43 +91,15 @@
       </div>
     </div>
 
+{% if plant.hydration %}
     <div class="card mb-2">
       <div class="card-body py-2">
         <h5 class="mb-2">Watering</h5>
 
-        <div class="mb-2">
-          {{ plantui.hydration_range(plant.hydration) }}
-        </div>
-
-        <div class="row row-cols-1 row-cols-sm-2 g-2">
-          <div class="col">
-            <div class="border rounded p-2 h-100">
-              <div class="text-body-secondary small">Hydration Min</div>
-              <div>
-                {% if plant.hydration and plant.hydration.target %}
-                  {{ (plant.hydration.target.min * 100) | int }}%
-                {% else %}
-                  <span class="text-body-secondary">—</span>
-                {% endif %}
-              </div>
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="border rounded p-2 h-100">
-              <div class="text-body-secondary small">Hydration Max</div>
-              <div>
-                {% if plant.hydration and plant.hydration.target %}
-                  {{ (plant.hydration.target.max * 100) | int }}%
-                {% else %}
-                  <span class="text-body-secondary">—</span>
-                {% endif %}
-              </div>
-            </div>
-          </div>
-        </div>
+        {{ plantui.hydration_ranges(plant.hydration) }}
       </div>
     </div>
+{% endif %}
 
 {% if plant.temperature %}
     <div class="card mb-2">

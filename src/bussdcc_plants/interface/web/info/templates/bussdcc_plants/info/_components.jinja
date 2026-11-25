@@ -312,3 +312,81 @@
     </div>
   </div>
 {% endmacro %}
+
+{% macro hydration_target_range(target) %}
+  <div class="d-flex align-items-center gap-2">
+    <div class="progress flex-grow-1"
+         style="height: 14px;">
+      {% if target %}
+        {% set start = target.min * 100 %}
+        {% set width = (target.max - target.min) * 100 %}
+
+        <div class="progress-bar bg-transparent"
+             style="width: {{ start }}%">
+        </div>
+
+        <div class="progress-bar rounded bg-success-subtle"
+             style="width: {{ width }}%;"
+             title="{{ '%g' | format(target.min * 100) }}–{{ '%g' | format(target.max * 100) }}%">
+        </div>
+      {% endif %}
+    </div>
+
+    <div class="text-end small text-nowrap"
+         style="flex: 0 0 90px;">
+      {% if target %}
+        {{ "%g" | format(target.min * 100) }}–{{ "%g" | format(target.max * 100) }}%
+      {% else %}
+        <span class="text-body-secondary">—</span>
+      {% endif %}
+    </div>
+  </div>
+{% endmacro %}
+
+{% macro hydration_ranges(hydration) %}
+  {% set stages = [
+    ("germination", "Germination"),
+    ("vegetative", "Vegetative"),
+    ("flowering", "Flowering"),
+    ("fruiting", "Fruiting")
+  ] %}
+
+  {# Shared hydration axis #}
+  <div class="d-flex align-items-center gap-2 mb-2">
+    <div style="flex: 0 0 100px;"></div>
+
+    <div class="flex-grow-1 position-relative"
+         style="height: 1.25rem; min-width: 0;">
+      {% for tick in [0, 25, 50, 75, 100] %}
+        <span class="position-absolute text-body-secondary small text-nowrap translate-middle-x"
+              style="left: {{ tick }}%;">
+          {{ tick }}%
+        </span>
+      {% endfor %}
+    </div>
+
+    <div style="flex: 0 0 90px;"></div>
+  </div>
+
+  {# Growth stages #}
+  {% for key, label in stages %}
+    {% set stage = hydration[key] if hydration else none %}
+
+    <div class="d-flex align-items-center gap-2 mb-2">
+      <div class="small"
+           style="flex: 0 0 100px;">
+        {{ label }}
+      </div>
+
+      <div class="flex-grow-1" style="min-width: 0;">
+        {{ hydration_target_range(
+          stage.target if stage else none
+        ) }}
+      </div>
+    </div>
+  {% endfor %}
+
+  <div class="text-body-secondary text-center small mt-2">
+    Preferred hydration by growth stage
+  </div>
+{% endmacro %}
