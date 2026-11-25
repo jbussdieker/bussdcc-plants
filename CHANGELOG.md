@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.8.0](https://github.com/jbussdieker/bussdcc-plants/compare/v0.7.0...v0.8.0) (2026-11-25)
+
+
+### Features
+
+* **data, model:** add temperature data and model for plant growth stages ([b56fa09](https://github.com/jbussdieker/bussdcc-plants/commit/b56fa09a0c3a7db866f50ac15227c7d1a759f035))
+* **web:** add temperature range display for plant growth stages ([6765c77](https://github.com/jbussdieker/bussdcc-plants/commit/6765c77558764c69b8a6cd7efd7641e06f481549))
+
 ## [0.7.0](https://github.com/jbussdieker/bussdcc-plants/compare/v0.6.0...v0.7.0) (2026-06-07)
 
 
