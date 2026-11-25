@@ -129,6 +129,16 @@
       </div>
     </div>
 
+{% if plant.temperature %}
+    <div class="card mb-2">
+      <div class="card-body py-2">
+        <h5 class="mb-2">Temperature Targets</h5>
+
+        {{ plantui.temperature_ranges(plant.temperature) }}
+      </div>
+    </div>
+{% endif %}
+
     <div class="row g-2">
       <div class="col-12 col-xl-6">
         <div class="card mb-2 h-100">

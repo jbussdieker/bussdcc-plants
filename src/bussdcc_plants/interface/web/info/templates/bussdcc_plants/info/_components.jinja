@@ -171,3 +171,144 @@
     {% endif %}
   </dd>
 {% endmacro %}
+
+{% macro temperature_range(target, color, scale_min=40, scale_max=100) %}
+  <div class="d-flex align-items-center gap-2">
+    <div class="progress flex-grow-1"
+         style="height: 14px;">
+      {% if target %}
+        {% set span = scale_max - scale_min %}
+        {% set start = (target.min - scale_min) / span * 100 %}
+        {% set width = (target.max - target.min) / span * 100 %}
+
+        <div class="progress-bar bg-transparent"
+             style="width: {{ start }}%">
+        </div>
+
+        <div class="progress-bar rounded"
+             style="width: {{ width }}%;
+                    background-color: {{ color }};"
+             title="{{ target.min | round(1) }}–{{ target.max | round(1) }}°{{ target.unit }}">
+        </div>
+      {% endif %}
+    </div>
+
+    <div class="text-end small text-nowrap"
+         style="width: 90px;">
+      {% if target %}
+        {{ "%g" | format(target.min) }}–{{ "%g" | format(target.max) }}°{{ target.unit }}
+      {% else %}
+        <span class="text-body-secondary">—</span>
+      {% endif %}
+    </div>
+  </div>
+{% endmacro %}
+
+{% macro temperature_ranges(temperature) %}
+  {% set stages = [
+    ("germination", "Germination"),
+    ("vegetative", "Vegetative"),
+    ("flowering", "Flowering"),
+    ("fruiting", "Fruiting")
+  ] %}
+
+  {% set soil_color = "#b28b57" %}
+  {% set air_color = "#6098cf" %}
+
+  {% set scale = namespace(min=40, max=100) %}
+
+  {% for medium in [temperature.soil, temperature.air] %}
+    {% if medium %}
+      {% for key, label in stages %}
+        {% set stage = medium[key] %}
+        {% if stage and stage.target %}
+          {% set scale.min = [scale.min, stage.target.min] | min %}
+          {% set scale.max = [scale.max, stage.target.max] | max %}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+
+  {% set scale.min = (scale.min / 10) | round(0, "floor") | int * 10 %}
+  {% set scale.max = (scale.max / 10) | round(0, "ceil") | int * 10 %}
+
+  {# Shared temperature axis #}
+  <div class="d-flex align-items-center gap-2 mb-2">
+    <div style="width: 40px;"></div>
+
+    <div class="d-flex justify-content-between flex-grow-1">
+      {% for tick in range(scale.min, scale.max + 1, 10) %}
+        <span class="text-body-secondary small">
+          {{ tick }}°
+        </span>
+      {% endfor %}
+    </div>
+
+    <div style="width: 90px;"></div>
+  </div>
+
+  {# Growth stages #}
+  {% for key, label in stages %}
+    {% set soil = temperature.soil[key] if temperature.soil else none %}
+    {% set air = temperature.air[key] if temperature.air else none %}
+
+    <div class="mb-3">
+      <div class="fw-semibold small mb-1">
+        {{ label }}
+      </div>
+
+      <div class="d-flex align-items-center gap-2 mb-1">
+        <div class="text-body-secondary small"
+             style="width: 40px;">
+          Soil
+        </div>
+
+        <div class="flex-grow-1" style="min-width: 0;">
+          {{ temperature_range(
+            soil.target if soil else none,
+            soil_color,
+            scale.min,
+            scale.max
+          ) }}
+        </div>
+      </div>
+
+      <div class="d-flex align-items-center gap-2">
+        <div class="text-body-secondary small"
+             style="width: 40px;">
+          Air
+        </div>
+
+        <div class="flex-grow-1" style="min-width: 0;">
+          {{ temperature_range(
+            air.target if air else none,
+            air_color,
+            scale.min,
+            scale.max
+          ) }}
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+
+  {# Legend #}
+  <div class="d-flex justify-content-center flex-wrap gap-3 small">
+    <div class="d-flex align-items-center gap-1">
+      <span class="rounded"
+            style="width: 12px;
+                   height: 12px;
+                   background-color: {{ soil_color }};">
+      </span>
+      <span class="text-body-secondary">Soil temperature</span>
+    </div>
+
+    <div class="d-flex align-items-center gap-1">
+      <span class="rounded"
+            style="width: 12px;
+                   height: 12px;
+                   background-color: {{ air_color }};">
+      </span>
+      <span class="text-body-secondary">Air temperature</span>
+    </div>
+  </div>
+{% endmacro %}
