@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.11.0](https://github.com/jbussdieker/bussdcc-plants/compare/v0.10.0...v0.11.0) (2026-11-26)
+
+
+### Features
+
+* **dependencies:** update bussdcc-framework to v0.48.0 ([7c59e56](https://github.com/jbussdieker/bussdcc-plants/commit/7c59e560289d4c01896bb527bd6a0125cde998d8))
+
 ## [0.10.0](https://github.com/jbussdieker/bussdcc-plants/compare/v0.9.0...v0.10.0) (2026-11-26)
 
 
